@@ -1,5 +1,5 @@
 !name: Patents
-!description: Removes pages and threads hosted on popular or promoted sites and paywall sites and promotes patent searches
+!description: promotes patent searches
 !public: true
 !author: Art
 $boost=2,site=uspto.gov
