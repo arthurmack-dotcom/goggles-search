@@ -3,6 +3,7 @@
 !public: true
 !author: Art
 $boost=2,site=bbc.com
+$discard,site=yahoo.com
 $discard,site=investor.google.com
 $discard,site=calendar.google.com
 $discard,site=workspace.google.com
