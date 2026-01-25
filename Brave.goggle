@@ -1,9 +1,6 @@
 !name: Web Cleanup!description: Removes pages and threads hosted on popular or promoted sites including paywall sites.
 !public: true
 !author: Art
-$boost=4,site=thedailybeast.com
-$boost=4,site=cnn.com
-$boost=4,site=bbc.com
 $discard,site=investor.google.com
 $discard,site=calendar.google.com
 $discard,site=workspace.google.com
