@@ -2,7 +2,13 @@
 !description: promotes patent searches
 !public: true
 !author: Art
-$boost=2,site=uspto.gov
-$boost=2,site=patents.google.com
-$boost=2,site=wipo.int
+$boost=10,site=uspto.gov
+$boost=10,site=patents.google.com
+$boost=10,site=wipo.int
+$boost=10,site=ppubs.uspto.gov
+$boost=10,site=lens.org
+$boost=10,site=worldwide.espacenet.com
+$boost=10,site=ic.gc.ca
+
+
 $discard
