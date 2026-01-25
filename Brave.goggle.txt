@@ -8,6 +8,8 @@ $boost=2,site=npr.org
 $discard,site=foxnews.com
 $discard,site=yahoo.com
 $discard,site=bing.com
+$discard,site=reddit.com
+$discard,site=quora.com
 $discard,site=investor.google.com
 $discard,site=calendar.google.com
 $discard,site=workspace.google.com
