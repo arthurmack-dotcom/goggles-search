@@ -4,6 +4,7 @@
 !author: Art
 $boost=2,site=bbc.com
 $discard,site=yahoo.com
+$discard,site=bing.com
 $discard,site=investor.google.com
 $discard,site=calendar.google.com
 $discard,site=workspace.google.com
@@ -44,7 +45,6 @@ $discard,site=x.com
 $discard,site=instagram.com
 $discard,site=weather.com
 $discard,site=netflix.com
-$discard,site=bing.com
 $discard,site=tiktok.com
 $discard,site=quora.com
 $discard,site=snopes.com
