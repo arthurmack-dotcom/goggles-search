@@ -1,6 +1,6 @@
 !name: Web Cleanup
 !description: Removes pages and threads hosted on popular or promoted sites and paywall sites.
-!Promotes unbiased news sites
+!description: Promotes unbiased news sites
 !public: true
 !author: Art
 $boost=10,site=apnews.com
