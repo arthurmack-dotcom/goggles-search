@@ -1,5 +1,4 @@
-!name: Web Cleanup
-!description: Removes pages and threads hosted on popular or promoted sites such as HomeDepot, Lowes, Menards, CNN, Fox, MSNBC, Zillow, Aliexpress, Indiamart, Trulia, Redfin, Pinterest, Amazon, eBay, IMDB, AP, Reuters, Goodreads, Twitter, Facebook, LinkedIn, Wikipedia, Walmart, Etsy, NYTimes, Movoto, BestBuy, Instagram, Target, and Alibaba.
+!name: Web Cleanup!description: Removes pages and threads hosted on popular or promoted sites including paywall sites such as HomeDepot, Lowes, Fox (Not News), Indiamart, Trulia, Redfin, Pinterest, Amazon, eBay, IMDB, AP, Reuters, Goodreads, Twitter, Facebook, LinkedIn, Wikipedia, Walmart, Etsy, NYTimes, Movoto, BestBuy, Instagram, Target, and Alibaba.
 !public: true
 !author: me
 $discard,site=investor.google.com
@@ -37,9 +36,6 @@ $discard,site=menards.com
 $discard,site=lowes.com
 $discard,site=nytimes.com
 $discard,site=goodreads.com
-$discard,site=washingtonpost.com
-$discard,site=washingtontimes.com
-$discard,site=cnn.com
 $discard,site=microsoft.com
 $discard,site=foxnews.com
 $discard,site=msnbc.com
@@ -69,7 +65,6 @@ $discard,site=paypal.com
 $discard,site=craigslist.com
 $discard,site=kijiji.com
 $discard,site=zillow.com
-$discard,site=wikipedia.org
 $discard,site=bestbuy.com
 $discard,site=linkedin.com
 $discard,site=investor.pinterestinc.com
