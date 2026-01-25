@@ -1,4 +1,4 @@
-!name: Web Cleanup!description: Removes pages and threads hosted on popular or promoted sites including paywall sites such as HomeDepot, Lowes, Fox (Not News), Indiamart, Trulia, Redfin, Pinterest, Amazon, eBay, IMDB, AP, Reuters, Goodreads, Twitter, Facebook, LinkedIn, Wikipedia, Walmart, Etsy, NYTimes, Movoto, BestBuy, Instagram, Target, and Alibaba.
+!name: Web Cleanup!description: Removes pages and threads hosted on popular or promoted sites including paywall sites.
 !public: true
 !author: Art
 $boost=4,site=thedailybeast.com
