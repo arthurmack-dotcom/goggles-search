@@ -15,6 +15,7 @@ $boost=10,site=www.c-span.org
 $boost=10,site=www.washingtonpost.com
 $boost=10,site=www.propublica.org
 $boost=10,site=www.theguardian.com
+$discard,site=news.google.com
 $discard,site=foxnews.com
 $discard,site=yahoo.com
 $discard,site=bing.com
