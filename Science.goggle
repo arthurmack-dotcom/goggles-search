@@ -1,0 +1,9 @@
+! name: Science
+! description: Show only results from Science in Brave Search
+! public: true
+! author: Art
+! Change default so that anything NOT matching an instruction is removed
+$discard
+! Keep and strongly boost
+$boost=10,site=science.org
+
