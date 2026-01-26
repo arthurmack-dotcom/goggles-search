@@ -6,4 +6,5 @@
 $discard
 ! Keep and strongly boost
 $boost=10,site=science.org
-
+$boost=10,site=scholar.google.com
+$boost=10,site=science.gov
