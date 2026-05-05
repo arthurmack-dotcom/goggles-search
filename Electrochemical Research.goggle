@@ -1,0 +1,57 @@
+! name: Electrochemical Research (Batteries & Electrolytes) 
+! description: Boost journals/societies/preprints/university sources for electrochemistry, batteries, and electrolyte research; downrank SEO aggregators and low-signal Q&A. 
+! public: true
+! author: Arthur Mack 
+! avatar: #1f4e79 
+ 
+$discard,site=pinterest.com 
+$discard,site=quora.com 
+$discard,site=medium.com 
+$discard,site=substack.com 
+$discard,site=reddit.com 
+$discard,site=stackexchange.com 
+$discard,site=researchgate.net 
+$discard,site=academia.edu 
+ 
+$downrank=6,site=mdpi.com 
+$downrank=6,site=frontiersin.org 
+ 
+$boost=9,site=electrochem.org 
+$boost=9,site=rsc.org 
+$boost=8,site=acs.org 
+$boost=8,site=cell.com 
+$boost=8,site=nature.com 
+$boost=8,site=science.org 
+$boost=7,site=elsevier.com 
+$boost=7,site=sciencedirect.com 
+$boost=7,site=onlinelibrary.wiley.com 
+$boost=7,site=link.springer.com 
+$boost=7,site=tandfonline.com 
+$boost=7,site=iop.org 
+$boost=7,site=pubs.aip.org 
+ 
+$boost=8,site=arxiv.org 
+$boost=8,site=chemrxiv.org 
+$boost=8,site=osf.io 
+$boost=7,site=osti.gov 
+ 
+$boost=7,site=.edu 
+$boost=7,site=.ac.uk 
+$boost=6,site=.gov 
+ 
+$boost=6,site=patents.google.com 
+$boost=6,site=worldwide.espacenet.com 
+ 
+$boost=6,/electrolyte/ 
+$boost=6,/electrolytes/ 
+$boost=6,/solid-electrolyte-interphase/ 
+$boost=6,/SEI/ 
+$boost=6,/CEI/ 
+$boost=6,/lithium-metal/ 
+$boost=6,/zinc-bromine/ 
+$boost=6,/zinc-bromide/ 
+$boost=6,/redox-flow-battery/ 
+$boost=6,/ionic-liquid/ 
+$boost=6,/cyclic-voltammetry/ 
+$boost=6,/electrochemical-impedance/ 
+$boost=6,/EIS/
