@@ -1,7 +1,7 @@
 ! name: IT Security & Threat Intelligence
 ! description: Boosts authoritative cybersecurity sources — CVE databases, CERT advisories, threat intelligence feeds, security research blogs, and vendor advisories. Downranks SEO-driven content farms and generic tech news that only superficially covers security. Ideal for searching CVEs, threat actors, malware, vulnerabilities, and incident response topics.
 ! public: true
-! author: SecPortal
+! author: Art
 ! homepage: https://search.brave.com/goggles/discover
 ! issues: https://github.com/brave/goggles-quickstart/issues
 ! transferred_to: https://search.brave.com/goggles/discover
