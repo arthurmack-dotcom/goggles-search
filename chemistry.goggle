@@ -1,0 +1,177 @@
+! name: Chemistry Research & Reference
+! description: Boosts chemistry journals, databases, reference tools, safety data, and technical resources. Downranks content farms and low-quality aggregators.
+! public: false
+! author: Arthur
+! avatar: #2196F3
+
+! ============================================================
+! SECTION 1: Academic Publishers & Journals
+! Boost peer-reviewed chemistry content heavily
+! ============================================================
+
+! -- Major publishers --
+$boost=5,site=pubs.acs.org
+$boost=5,site=pubs.rsc.org
+$boost=5,site=sciencedirect.com
+$boost=5,site=nature.com
+$boost=5,site=science.org
+$boost=5,site=onlinelibrary.wiley.com
+$boost=5,site=link.springer.com
+$boost=5,site=tandfonline.com
+$boost=4,site=mdpi.com
+$boost=4,site=frontiersin.org
+$boost=4,site=cell.com
+$boost=4,site=degruyter.com
+
+! -- Preprints & open access --
+$boost=4,site=arxiv.org
+$boost=4,site=chemrxiv.org
+$boost=4,site=biorxiv.org
+$boost=3,site=peerj.com
+$boost=3,site=doaj.org
+
+! -- Indexing & discovery --
+$boost=3,site=scholar.google.com
+$boost=3,site=pubmed.ncbi.nlm.nih.gov
+$boost=3,site=semanticscholar.org
+$boost=2,site=crossref.org
+$boost=2,site=dimensions.ai
+
+! ============================================================
+! SECTION 2: Chemical Databases & Reference Tools
+! Core lookup resources for properties, spectra, structures
+! ============================================================
+
+$boost=5,site=pubchem.ncbi.nlm.nih.gov
+$boost=5,site=webbook.nist.gov
+$boost=5,site=chem.nlm.nih.gov
+$boost=4,site=commonchemistry.cas.org
+$boost=4,site=chemicalbook.com
+$boost=4,site=sigmaaldrich.com
+$boost=4,site=thermofisher.com
+$boost=4,site=fishersci.com
+$boost=3,site=chemspider.com
+$boost=3,site=drugbank.com
+$boost=3,site=ebi.ac.uk
+$boost=3,site=rsc.org
+$boost=3,site=iupac.org
+
+! -- Spectral databases --
+$boost=4,site=sdbs.db.aist.go.jp
+$boost=3,site=spectrabase.com
+$boost=3,site=massbank.eu
+
+! -- Thermodynamic / phase data --
+$boost=4,site=nist.gov
+$boost=3,site=crct.polymtl.ca
+$boost=3,site=factsage.com
+
+! ============================================================
+! SECTION 3: Safety Data & Regulatory
+! SDS, GHS, EPA, OSHA references
+! ============================================================
+
+$boost=4,site=osha.gov
+$boost=4,site=epa.gov
+$boost=4,site=echa.europa.eu
+$boost=3,site=cdc.gov/niosh
+$boost=3,site=inchem.org
+$boost=3,site=unece.org
+$boost=2,site=hazmat.dot.gov
+
+! ============================================================
+! SECTION 4: Industrial / Process Chemistry & Engineering
+! Relevant to brine processing, minerals, hydromet, water treatment
+! ============================================================
+
+$boost=4,site=aiche.org
+$boost=3,site=icheme.org
+$boost=3,site=osti.gov
+$boost=3,site=mining.com
+$boost=3,site=spe.org
+$boost=3,site=minerals.usgs.gov
+$boost=3,site=usgs.gov
+$boost=2,site=wateronline.com
+$boost=2,site=chemengonline.com
+$boost=2,site=processingmagazine.com
+$boost=2,site=mining-technology.com
+
+! -- Patent databases (process/formulation IP) --
+$boost=3,site=patents.google.com
+$boost=3,site=patentscope.wipo.int
+$boost=3,site=freepatentsonline.com
+$boost=2,site=lens.org
+$boost=2,site=espacenet.com
+
+! ============================================================
+! SECTION 5: Educational & Reference Sites
+! Textbook-quality explanations and teaching resources
+! ============================================================
+
+$boost=4,site=chem.libretexts.org
+$boost=3,site=chemguide.co.uk
+$boost=3,site=chemistrysteps.com
+$boost=3,site=masterorganicchemistry.com
+$boost=3,site=chem.purdue.edu
+$boost=3,site=chemed.chem.purdue.edu
+$boost=2,site=khanacademy.org
+$boost=2,site=chemcollective.org
+$boost=2,site=hyperphysics.phy-astr.gsu.edu
+$boost=2,site=encyclopedia.com
+
+! -- Wikipedia: mild boost (useful starting point) --
+$boost=1,site=en.wikipedia.org
+
+! ============================================================
+! SECTION 6: Technical Forums & Communities
+! Q&A and discussion with real expertise
+! ============================================================
+
+$boost=2,site=chemistry.stackexchange.com
+$boost=1,site=reddit.com/r/chemistry
+$boost=1,site=reddit.com/r/chemicalengineering
+$boost=1,site=reddit.com/r/chempros
+$boost=1,site=scienceforums.net
+$boost=1,site=chemicalforums.com
+
+! ============================================================
+! SECTION 7: Software & Computation Tools
+! Modeling, simulation, cheminformatics
+! ============================================================
+
+$boost=2,site=gaussian.com
+$boost=2,site=orcasoftware.de
+$boost=2,site=openbabel.org
+$boost=2,site=rdkit.org
+$boost=2,site=olisystems.com
+$boost=2,site=aspentech.com
+$boost=1,site=avogadro.cc
+
+! ============================================================
+! SECTION 8: Downrank / Discard Low-Quality Sources
+! Content farms, clickbait, SEO-driven fluff
+! ============================================================
+
+! -- Content farms & homework mills --
+$discard,site=brainly.com
+$discard,site=brainly.in
+$discard,site=course-hero.com
+$discard,site=chegg.com
+$discard,site=answers.com
+$discard,site=reference.com
+$discard,site=byjus.com
+$discard,site=vedantu.com
+$discard,site=toppr.com
+$discard,site=unacademy.com
+
+! -- SEO clickbait / thin content --
+$downrank=3,site=sciencing.com
+$downrank=3,site=thoughtco.com
+$downrank=3,site=study.com
+$downrank=2,site=quora.com
+$downrank=2,site=wikihow.com
+
+! -- Pinterest / social noise --
+$discard,site=pinterest.com
+$discard,site=pinterest.co.uk
+$discard,site=tiktok.com
