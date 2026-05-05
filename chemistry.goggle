@@ -74,7 +74,6 @@ $boost=3,site=factsage.com
 $boost=4,site=osha.gov
 $boost=4,site=epa.gov
 $boost=4,site=echa.europa.eu
-$boost=3,site=cdc.gov/niosh
 $boost=3,site=inchem.org
 $boost=3,site=unece.org
 $boost=2,site=hazmat.dot.gov
