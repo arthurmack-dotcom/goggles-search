@@ -127,9 +127,6 @@ $boost=1,site=en.wikipedia.org
 ! ============================================================
 
 $boost=2,site=chemistry.stackexchange.com
-$boost=1,site=reddit.com/r/chemistry
-$boost=1,site=reddit.com/r/chemicalengineering
-$boost=1,site=reddit.com/r/chempros
 $boost=1,site=scienceforums.net
 $boost=1,site=chemicalforums.com
 
