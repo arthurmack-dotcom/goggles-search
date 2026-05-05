@@ -91,7 +91,7 @@ $boost=5,site=comalatech.com
 ! -- DevOps & CI/CD --
 $boost=6,site=jenkins.io
 $boost=5,site=circleci.com
-$boost=5,site=github.com/atlassian
+$boost=7,site=github.com/atlassian
 
 ! -- Service management --
 $boost=7,site=atlassian.com/software/jira/service-management
@@ -104,20 +104,20 @@ $boost=6,site=riada.io
 ! ============================================================
 
 ! -- JQL & query references --
-/jql/$boost=6
-/advanced-searching/$boost=6
+$url=jql/$boost=6
+$url=advanced-searching/$boost=6
 
 ! -- Confluence macros & templates --
-/confluence/cloud/$boost=6
-/confluence/server/$boost=6
+$url=confluence/cloud/$boost=6
+$url=confluence/server/$boost=6
 
 ! -- Jira workflows & schemes --
-/jira/cloud/$boost=6
-/jira/server/$boost=6
+$url=jira/cloud/$boost=6
+$url=jira/server/$boost=6
 
 ! -- REST API docs --
-/rest/api/$boost=7
-/wiki/rest/$boost=7
+$url=rest/api/$boost=7
+$url=wiki/rest/$boost=7
 
 ! ============================================================
 ! SECTION 5: Atlassian on Stack Overflow & Forums
