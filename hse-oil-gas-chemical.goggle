@@ -1,0 +1,897 @@
+! name: HSE — Oil & Gas and Chemical Industry
+! description: Boosts authoritative health, safety and environment sources for oil and gas and chemical industry professionals. Elevates US/UK/EU regulatory agencies (OSHA, HSE, ECHA, EPA, CSB, BSEE), process safety bodies (CCPS/AIChE, IChemE, Energy Institute, IOGP), chemical hazard databases (NIOSH, PubChem, ATSDR, ICSC, ECHA), fire and explosion standards (NFPA, API, IEC/ATEX), occupational health bodies (ACGIH, AIHA, NIOSH), incident investigation reports (CSB, ARIA, EMARS), and peer-reviewed journals (Journal of Loss Prevention, PSEP, Safety Science, Process Safety Progress). Downranks generic safety equipment sellers, EHS software marketing, and shallow HSE listicle content. For process safety, HAZOP/LOPA, PSM, COMAH, SDS, REACH, COSHH, occupational hygiene, fire protection, and emergency response searches.
+! public: true
+! author: SecPortal — HSE Edition
+! homepage: https://search.brave.com/goggles/discover
+
+!==========================================================
+! HSE — OIL & GAS AND CHEMICAL INDUSTRY GOGGLE
+! Version: 1.0  |  Updated: May 2025
+!
+! DISCIPLINE COVERAGE:
+!   Process Safety     — PSM, HAZOP, LOPA, bow-tie, SIL, COMAH/RMP
+!   Occupational HSE   — IH, exposure limits, OELs, PPE, HazCom/GHS
+!   Fire & Explosion   — ATEX/DSEAR, area classification, NFPA, BLEVE
+!   Chemical Hazards   — SDS/MSDS, REACH, CLP, toxicology, COSHH
+!   Incident Learning  — CSB reports, ARIA, EMARS, loss prevention
+!   Environmental HSE  — Spill response, emissions, RMP, SPCC
+!   Emergency Response — ERG, CHEMTREC, CAMEO, ALOHA dispersion
+!   Occupational Health — ACGIH TLVs, NIOSH RELs, AIHA WEELs
+!
+! BOOST LEVELS:
+!   3 = Primary authoritative source (regulatory body, official standard,
+!       primary chemical hazard database, official incident database)
+!   2 = Trusted technical source (professional society, peer-reviewed
+!       journal, established trade publication, university research)
+!   1 = Useful community or supplementary source
+!
+! DOWNRANK:
+!   1 = General safety media with low technical depth
+!   2 = EHS software vendor marketing disguised as guidance
+!   3 = Listicle / SEO-driven safety content farms
+!
+! DISCARD = Product sellers, job boards, social media, irrelevant noise
+!==========================================================
+
+
+!==========================================================
+! SECTION 1: US REGULATORY AGENCIES — PRIMARY HSE (boost=3)
+!==========================================================
+
+! --- OSHA (Occupational Safety and Health Administration) ---
+! The primary US workplace safety regulator.
+! Covers PSM (1910.119), HazCom (1910.1200), confined spaces,
+! LOTO, respiratory protection, fall protection, and all
+! oil/gas and chemical-specific standards.
+||osha.gov^$boost=3
+||osha.gov/oil-and-gas-extraction$boost=3
+||osha.gov/process-safety-management$boost=3
+||osha.gov/hazard-communication$boost=3
+||osha.gov/chemical-hazards$boost=3
+||osha.gov/refinery-process-safety$boost=3
+||osha.gov/sites/default/files$boost=3
+
+! --- NIOSH (National Institute for Occupational Safety and Health) ---
+! Exposure limit recommendations (RELs), IDLH values,
+! health hazard evaluations, NIOSH Pocket Guide to Chemical Hazards
+||cdc.gov/niosh$boost=3
+||cdc.gov/niosh/npg$boost=3
+||cdc.gov/niosh/idlh$boost=3
+||cdc.gov/niosh/topics/oilgas$boost=3
+||cdc.gov/niosh/topics/chemical$boost=3
+||cdc.gov/niosh/hhe$boost=3
+||niosh.cdc.gov^$boost=3
+
+! --- CDC / ATSDR (Agency for Toxic Substances and Disease Registry) ---
+! Toxicological profiles, minimum risk levels (MRLs),
+! chemical-specific health effects guidance
+||atsdr.cdc.gov^$boost=3
+||atsdr.cdc.gov/toxprofiles$boost=3
+||atsdr.cdc.gov/mrls$boost=3
+||atsdr.cdc.gov/substances$boost=3
+
+! --- US Chemical Safety Board (CSB) ---
+! THE most important source for process safety incident investigations.
+! Texas City, West Fertilizer, Bhopal retrospective, refinery incidents
+||csb.gov^$boost=3
+||csb.gov/investigations$boost=3
+||csb.gov/safety-videos$boost=3
+||csb.gov/recommendations$boost=3
+
+! --- EPA — Chemical Safety & Emergency Response ---
+! RMP (Risk Management Program), SPCC, RCRA, Clean Air Act,
+! Accidental Release Prevention, Toxic Release Inventory (TRI)
+||epa.gov/rmp$boost=3
+||epa.gov/epcra$boost=3
+||epa.gov/emergency-response$boost=3
+||epa.gov/spcc$boost=3
+||epa.gov/chemical-data-reporting$boost=3
+||epa.gov/toxics-release-inventory-tri-program$boost=3
+||epa.gov/oil-spills-prevention-and-preparedness-regulations$boost=3
+||epa.gov/sites/default/files$boost=3
+||epa.gov^$boost=2
+
+! --- BSEE (Bureau of Safety & Environmental Enforcement) ---
+! Offshore Safety & Environmental Management System (SEMS),
+! well control, safety alerts, incident statistics
+||bsee.gov^$boost=3
+||bsee.gov/what-we-do/offshore-regulatory-programs$boost=3
+||bsee.gov/safety-and-technology/safety-alerts$boost=3
+||bsee.gov/stats-facts/incidents$boost=3
+
+! --- PHMSA (Pipeline and Hazardous Materials Safety Administration) ---
+! Hazmat transportation safety, pipeline incident data
+||phmsa.dot.gov^$boost=3
+||phmsa.dot.gov/hazmat$boost=3
+||phmsa.dot.gov/pipeline$boost=3
+
+! --- NTSB (National Transportation Safety Board) ---
+! Investigates pipeline, chemical transport, and industrial accidents
+||ntsb.gov^$boost=3
+||ntsb.gov/investigations$boost=3
+
+! --- DOE / NNSA — Chemical and Industrial Safety ---
+||energy.gov/ehss$boost=3
+||energy.gov/sites/default/files$boost=2
+||ehss.energy.gov^$boost=3
+
+! --- MSHA (Mine Safety and Health Administration) ---
+! Relevant for mining operations adjacent to O&G/chemicals
+||msha.gov^$boost=2
+
+! --- NRC (Nuclear Regulatory Commission) —
+! Cross-reference for chemical facility safety standards
+||nrc.gov^$boost=2
+
+
+!==========================================================
+! SECTION 2: UK REGULATORY & GOVERNMENT HSE (boost=3)
+!==========================================================
+
+! --- HSE (Health and Safety Executive) ---
+! The UK's primary occupational safety and health regulator.
+! COMAH (Seveso equivalent), DSEAR, PSSR, COSHH,
+! RIDDOR, LOLER, offshore safety cases
+||hse.gov.uk^$boost=3
+||hse.gov.uk/comah$boost=3
+||hse.gov.uk/offshore$boost=3
+||hse.gov.uk/chemical$boost=3
+||hse.gov.uk/process-industries$boost=3
+||hse.gov.uk/pubns$boost=3
+||hse.gov.uk/coshh$boost=3
+||hse.gov.uk/explosives$boost=3
+||hse.gov.uk/dsear$boost=3
+||hse.gov.uk/fireandexplosion$boost=3
+||hse.gov.uk/research$boost=3
+||hse.gov.uk/statistics$boost=3
+
+! --- COMAH Competent Authority (HSE/EA joint) ---
+||comahinspections.hse.gov.uk^$boost=3
+
+! --- UK Health and Safety Laboratory (HSL) ---
+! Science division of HSE — fire, explosion, toxicology research
+||hsl.gov.uk^$boost=3
+
+! --- Environment Agency (EA) — UK ---
+! Environmental permitting, major hazard sites
+||environment-agency.gov.uk^$boost=2
+||gov.uk/government/organisations/environment-agency$boost=2
+
+! --- UK Legislation — Safety Regulations ---
+||legislation.gov.uk^$boost=2
+
+! --- Scottish Environment Protection Agency ---
+||sepa.org.uk^$boost=2
+
+! --- ONR (Office for Nuclear Regulation) UK ---
+||onr.org.uk^$boost=2
+
+
+!==========================================================
+! SECTION 3: EU REGULATORY — CHEMICALS & SAFETY (boost=3)
+!==========================================================
+
+! --- ECHA (European Chemicals Agency) ---
+! REACH registration dossiers, CLP hazard classification,
+! SDS requirements, substance of very high concern (SVHC)
+! The authoritative EU source for chemical hazard data
+||echa.europa.eu^$boost=3
+||echa.europa.eu/substance-information$boost=3
+||echa.europa.eu/registration-dossier$boost=3
+||echa.europa.eu/brief-profile$boost=3
+||echa.europa.eu/clp-classification$boost=3
+||echa.europa.eu/svhc-support$boost=3
+
+! --- European Commission — SEVESO / Major Hazards ---
+! Seveso III Directive, EMARS accident database
+||ec.europa.eu/social/main.jsp$boost=2
+||publications.jrc.ec.europa.eu^$boost=3
+||emars.jrc.ec.europa.eu^$boost=3
+||mahb.jrc.ec.europa.eu^$boost=3
+
+! --- OSHA EU (European Agency for Safety and Health at Work) ---
+! OSH data, sector guides, good practice
+||osha.europa.eu^$boost=3
+||oshwiki.osha.europa.eu^$boost=3
+
+! --- ENISA (EU Cybersecurity) — ICS/OT safety crossover ---
+||enisa.europa.eu^$boost=2
+
+! --- EEA (European Environment Agency) ---
+||eea.europa.eu^$boost=2
+
+
+!==========================================================
+! SECTION 4: INTERNATIONAL SAFETY BODIES (boost=2-3)
+!==========================================================
+
+! --- ILO (International Labour Organization) ---
+! Conventions on occupational safety, Chemical Safety,
+! ICSCs (International Chemical Safety Cards)
+||ilo.org^$boost=3
+||ilo.org/safework$boost=3
+||ilo.org/safework/info/chemicals$boost=3
+
+! --- WHO / IPCS (International Programme on Chemical Safety) ---
+! INCHEM — chemical safety data, EHCs, health criteria documents
+||who.int/health-topics/chemical-safety$boost=3
+||inchem.org^$boost=3
+||who.int/teams/environment-climate-change-and-health/chemical-safety$boost=3
+
+! --- UNECE — GHS (Globally Harmonized System) ---
+! The authoritative source for the GHS framework —
+! hazard classification and communication standards
+||unece.org/trans/danger/publi/ghs$boost=3
+||unece.org^$boost=2
+
+! --- IEA Bioenergy / Energy Safety (crossover) ---
+||iea.org^$boost=2
+
+! --- International Fire Safety Standards Coalition (IFSS) ---
+||ifssccoalition.org^$boost=2
+
+! --- IAEA Industrial Safety ---
+||iaea.org^$boost=2
+||iaea.org/topics/chemical-safety$boost=2
+
+
+!==========================================================
+! SECTION 5: PROCESS SAFETY SOCIETIES & BODIES (boost=3)
+! The definitive technical authorities on process safety
+!==========================================================
+
+! --- CCPS / AIChE (Center for Chemical Process Safety) ---
+! THE primary process safety knowledge body.
+! 100+ books, Process Safety Beacon, RBPS framework,
+! HAZOP, LOPA, BowTie, SIL, consequence modeling guidelines
+||aiche.org/ccps$boost=3
+||aiche.org/ccps/publications$boost=3
+||aiche.org/ccps/resources$boost=3
+||aiche.org^$boost=2
+
+! --- IChemE (Institution of Chemical Engineers) ---
+! Loss Prevention Symposium (Hazards), PSEP journal,
+! Safety & Loss Prevention SIG, process safety competency
+||icheme.org^$boost=3
+||icheme.org/knowledge-networks/communities/special-interest-groups/safety-and-loss-prevention$boost=3
+||icheme.org/media$boost=3
+
+! --- Energy Institute ---
+! Process Safety Framework (PSF), bow-tie methodology,
+! performance standards, hazardous area classification (EI 15)
+||energyinst.org^$boost=3
+||energyinst.org/technical-work/process-safety$boost=3
+||energyinst.org/technical-work/hazardous-installations$boost=3
+
+! --- IOGP (International Association of Oil & Gas Producers) ---
+! HSE statistics, life-saving rules, safety performance reports,
+! process safety guides, well control materials
+||iogp.org^$boost=3
+||iogp.org/publications/safety$boost=3
+||iogp.org/life-saving-rules$boost=3
+||iogp.org/safety-data$boost=3
+
+! --- API (American Petroleum Institute) — HSE Standards ---
+! API RP 754 (process safety KPIs), RP 14J, RP 500, RP 505,
+! RP 75, API 579/FFS, API 570 (inspection)
+||api.org^$boost=3
+||api.org/products-and-services/standards$boost=3
+
+! --- IPIECA (Oil and Gas Industry Environmental Association) ---
+! Environmental and social HSE guidance
+||ipieca.org^$boost=3
+
+! --- SPE (Society of Petroleum Engineers) — Safety Papers ---
+||onepetro.org^$boost=3
+||spe.org^$boost=2
+
+
+!==========================================================
+! SECTION 6: FIRE, EXPLOSION & ELECTRICAL SAFETY (boost=3)
+!==========================================================
+
+! --- NFPA (National Fire Protection Association) ---
+! NFPA 30 (flammable liquids), NFPA 58 (LPG), NFPA 59A (LNG),
+! NFPA 70 (NEC), NFPA 497/499 (hazardous area classification),
+! NFPA 652 (combustible dust), NFPA 921 (fire investigation)
+||nfpa.org^$boost=3
+||nfpa.org/codes-and-standards$boost=3
+||nfpa.org/resources/safety-information$boost=3
+
+! --- IEC — Explosive Atmospheres (ATEX/IECEx) ---
+! IEC 60079 series — fundamental for ATEX/DSEAR/area classification
+||iec.ch^$boost=3
+||iec.ch/dyn/www/f?p=103:38$boost=3
+
+! --- SFPE (Society of Fire Protection Engineers) ---
+! Fire engineering, consequence modeling, fire suppression
+||sfpe.org^$boost=3
+||sfpe.org/publications$boost=3
+
+! --- FM Global (Factory Mutual) Research ---
+! Property loss prevention, industrial fire protection data sheets
+||fmglobal.com/research-and-resources$boost=3
+||fmglobal.com/research-and-resources/fm-approvals$boost=2
+
+! --- UL (Underwriters Laboratories) ---
+! Product certification, hazardous location equipment standards
+||ul.com/standards$boost=3
+||ul.com^$boost=2
+
+! --- BSI (British Standards Institution) ---
+! BS EN standards — ATEX, pressure equipment, safety systems
+||bsigroup.com^$boost=2
+||shop.bsigroup.com^$boost=2
+
+! --- ASME (Pressure Safety) ---
+! BPVC (Boiler & Pressure Vessel Code), FFS-1, B31.3
+||asme.org^$boost=3
+
+! --- ASTM (Material Testing) ---
+||astm.org^$boost=3
+
+! --- AMPP / NACE (Corrosion Safety) ---
+! MR0175/ISO 15156 (H2S service), pipeline integrity
+||ampp.org^$boost=3
+||nace.org^$boost=3
+
+
+!==========================================================
+! SECTION 7: CHEMICAL HAZARD DATABASES (boost=3)
+! Primary sources for toxicology, exposure data, and SDS
+!==========================================================
+
+! --- NIOSH Pocket Guide to Chemical Hazards (NPG) ---
+! The standard US reference for OELs, IDLH, physical properties
+||cdc.gov/niosh/npg$boost=3
+||cdc.gov/niosh/idlh$boost=3
+
+! --- PubChem (NCBI / NLM) ---
+! Comprehensive chemical property, hazard, and literature database
+||pubchem.ncbi.nlm.nih.gov^$boost=3
+
+! --- NIST Chemistry WebBook ---
+! Thermophysical data, vapor pressure, flash points, spectra
+||webbook.nist.gov^$boost=3
+
+! --- ATSDR Toxicological Profiles ---
+! Detailed health effects for 275+ hazardous substances
+||atsdr.cdc.gov/toxprofiles$boost=3
+||atsdr.cdc.gov/substances$boost=3
+||atsdr.cdc.gov/mrls$boost=3
+
+! --- INCHEM (WHO/IPCS International Chemical Safety Cards) ---
+! ICSCs — concise occupational health datasheets for 1800+ chemicals
+||inchem.org^$boost=3
+
+! --- ECHA — Substance Information / REACH Dossiers ---
+! The EU authoritative classification and SDS database
+||echa.europa.eu/substance-information$boost=3
+||echa.europa.eu/registration-dossier$boost=3
+||echa.europa.eu/brief-profile$boost=3
+
+! --- NLM Hazardous Substances Data Bank (HSDB) ---
+||nlm.nih.gov^$boost=3
+||hazmap.nlm.nih.gov^$boost=3
+
+! --- NTP (National Toxicology Program) ---
+! Carcinogen classification, toxicology reports
+||ntp.niehs.nih.gov^$boost=3
+
+! --- IARC (International Agency for Research on Cancer) ---
+! Carcinogen classification — Groups 1, 2A, 2B
+||iarc.who.int^$boost=3
+||monographs.iarc.who.int^$boost=3
+
+! --- ACGIH (American Conference of Governmental Industrial Hygienists) ---
+! TLV (Threshold Limit Values) and BEI (Biological Exposure Indices)
+! The primary occupational exposure limit standard in the US
+||acgih.org^$boost=3
+
+! --- AIHA (American Industrial Hygiene Association) ---
+! WEEL (Workplace Environmental Exposure Levels),
+! industrial hygiene guidance, OEL Watch
+||aiha.org^$boost=3
+||aiha.org/research/oelooh$boost=3
+
+! --- EH&E / OSHA PEL Tables ---
+||osha.gov/annotated-pels$boost=3
+||osha.gov/chemicaldata$boost=3
+
+! --- CAMEO Chemicals (NOAA emergency response) ---
+! Chemical hazard data, reactivity, response recommendations
+||cameochemicals.noaa.gov^$boost=3
+
+! --- GESTIS Chemical Database (IFA Germany) ---
+! OELs, physical/chemical data — strong international OEL coverage
+||gestis.dguv.de^$boost=3
+
+! --- ChemIDplus / NLM ---
+||chem.nlm.nih.gov^$boost=3
+
+! --- Reprotox (Reproductive Toxicology) ---
+||reprotox.org^$boost=2
+
+! --- TOXNET (NLM Toxicology Data Network) ---
+||toxnet.nlm.nih.gov^$boost=3
+
+
+!==========================================================
+! SECTION 8: INCIDENT INVESTIGATION & LOSS LEARNING (boost=3)
+! The most important section for lessons-learned research
+!==========================================================
+
+! --- CSB (US Chemical Safety Board) ---
+! The gold standard for US process industry accident investigation
+||csb.gov^$boost=3
+||csb.gov/investigations$boost=3
+||csb.gov/videos$boost=3
+||csb.gov/recommendations$boost=3
+
+! --- ARIA (French Industrial Accident Database) ---
+! French BARPI database — 50,000+ industrial accidents
+! Search in French and English
+||aria.developpement-durable.gouv.fr^$boost=3
+
+! --- EMARS (EU Major Accident Reporting System) ---
+! Seveso major accidents in Europe
+||emars.jrc.ec.europa.eu^$boost=3
+||mahb.jrc.ec.europa.eu^$boost=3
+
+! --- HSE Major Hazard Incidents ---
+||hse.gov.uk/comah/sragtech$boost=3
+||hse.gov.uk/comah/report.htm$boost=3
+
+! --- IOGP Safety Statistics / Incident Reports ---
+||iogp.org/safety-data$boost=3
+
+! --- IChemE Loss Prevention Bulletin (LPB) ---
+||icheme.org/membership/professional-development/loss-prevention-bulletin$boost=3
+
+! --- CCPS Process Safety Incident Database (PSID) ---
+||aiche.org/ccps/resources/process-safety-incident-database$boost=3
+
+! --- NTSB Pipeline Incidents ---
+||ntsb.gov/investigations/AccidentReports$boost=3
+
+! --- PHMSA Hazmat Incident Data ---
+||phmsa.dot.gov/data-and-statistics/pipeline/pipeline-incident-and-annual-data$boost=3
+
+! --- AIChE Process Safety Beacon ---
+||aiche.org/ccps/resources/process-safety-beacon$boost=3
+
+! --- Texas City / BP-specific learning archives ---
+! Accessible via CSB and HSE — already covered above
+
+! --- Failure Knowledge Database (Japan NITE) ---
+||sozogaku.com/fkd/en$boost=2
+
+! --- eMARS / VROM Netherlands ---
+||risicokaart.nl^$boost=2
+
+
+!==========================================================
+! SECTION 9: OCCUPATIONAL HEALTH — INDUSTRIAL HYGIENE (boost=3)
+!==========================================================
+
+! --- NIOSH (primary US occupational health research body) ---
+||cdc.gov/niosh^$boost=3
+
+! --- ACGIH (TLV/BEI standards) ---
+||acgih.org^$boost=3
+
+! --- AIHA (industrial hygiene professionals body) ---
+||aiha.org^$boost=3
+
+! --- IOSH (Institution of Occupational Safety and Health UK) ---
+||iosh.com^$boost=3
+||iosh.com/resources$boost=3
+
+! --- NEBOSH (safety qualifications and guidance) ---
+||nebosh.org.uk^$boost=3
+
+! --- ASSP (American Society of Safety Professionals) ---
+||assp.org^$boost=2
+
+! --- BCSP (Board of Certified Safety Professionals) ---
+||bcsp.org^$boost=2
+
+! --- BOHS (British Occupational Hygiene Society) ---
+||bohs.org^$boost=3
+
+! --- PubMed — Occupational Health Literature ---
+||pubmed.ncbi.nlm.nih.gov^$boost=3
+||ncbi.nlm.nih.gov/pmc$boost=3
+
+! --- IOHA (International Occupational Hygiene Association) ---
+||ioha.net^$boost=2
+
+! --- Oxford Journals — Occupational Medicine ---
+||academic.oup.com/occmed$boost=3
+||academic.oup.com/annweh$boost=3
+
+! --- SAGE Journals — Occupational Health ---
+||journals.sagepub.com^$boost=2
+
+! --- Scandinavian Journal of Work, Environment & Health ---
+||sjweh.fi^$boost=3
+
+
+!==========================================================
+! SECTION 10: EMERGENCY RESPONSE RESOURCES (boost=3)
+!==========================================================
+
+! --- Emergency Response Guidebook (ERG/DOT) ---
+! The standard North American chemical emergency response guide
+||phmsa.dot.gov/sites/phmsa.dot.gov/files/docs$boost=3
+||phmsa.dot.gov/hazmat/erg$boost=3
+
+! --- CAMEO / ALOHA Dispersion Modeling (NOAA/EPA) ---
+! Air dispersion modeling for chemical releases
+||cameo.noaa.gov^$boost=3
+||cameochemicals.noaa.gov^$boost=3
+||epa.gov/cameotools$boost=3
+
+! --- CHEMTREC ---
+! 24/7 chemical emergency response guidance
+||chemtrec.com^$boost=3
+
+! --- NOAA Chemical Spill Response ---
+||response.restoration.noaa.gov^$boost=3
+||emergencyresponse.noaa.gov^$boost=3
+
+! --- WISER (Wireless Information System for Emergency Responders) ---
+||wiser.nlm.nih.gov^$boost=3
+
+! --- IAEA Emergency Response ---
+||iaea.org/topics/emergency-preparedness-and-response$boost=3
+
+! --- NCEC (National Chemical Emergency Centre UK) ---
+||ncec.co.uk^$boost=3
+
+! --- ECDC Rapid Risk Assessment (chemical events) ---
+||ecdc.europa.eu/en/threats-and-outbreaks$boost=2
+
+! --- FEMA / LEPC Resources ---
+||fema.gov^$boost=2
+||epa.gov/epcra/local-emergency-planning-committees$boost=3
+
+
+!==========================================================
+! SECTION 11: PEER-REVIEWED JOURNALS — HSE & SAFETY (boost=3)
+!==========================================================
+
+! --- Journal of Loss Prevention in the Process Industries ---
+! Elsevier — THE primary O&G and chemical process safety journal
+||sciencedirect.com/journal/journal-of-loss-prevention-in-the-process-industries$boost=3
+
+! --- Process Safety and Environmental Protection (PSEP) ---
+! IChemE journal — process safety and environmental engineering
+||sciencedirect.com/journal/process-safety-and-environmental-protection$boost=3
+
+! --- Process Safety Progress ---
+! CCPS/AIChE/Wiley quarterly — process safety case studies
+||onlinelibrary.wiley.com/journal/15518116$boost=3
+
+! --- Safety Science ---
+! Elsevier — broad occupational safety and risk research
+||sciencedirect.com/journal/safety-science$boost=3
+
+! --- Journal of Hazardous Materials ---
+! Elsevier — chemical hazards, risk assessment
+||sciencedirect.com/journal/journal-of-hazardous-materials$boost=3
+
+! --- Reliability Engineering & System Safety ---
+! Elsevier — risk analysis, fault tree, QRA
+||sciencedirect.com/journal/reliability-engineering-and-system-safety$boost=3
+
+! --- Risk Analysis (Society for Risk Analysis) ---
+||onlinelibrary.wiley.com/journal/15396924$boost=3
+
+! --- Accident Analysis & Prevention ---
+! Elsevier — workplace and industrial accidents
+||sciencedirect.com/journal/accident-analysis-and-prevention$boost=3
+
+! --- Journal of Occupational and Environmental Medicine ---
+||journals.lww.com/joem$boost=3
+
+! --- Occupational and Environmental Medicine (BMJ) ---
+||oem.bmj.com^$boost=3
+
+! --- Annals of Work Exposures and Health ---
+||academic.oup.com/annweh$boost=3
+
+! --- Journal of Occupational Health ---
+||onlinelibrary.wiley.com/journal/13489585$boost=3
+
+! --- International Journal of Environmental Research and Public Health ---
+||mdpi.com/journal/ijerph$boost=2
+
+! --- Fire Safety Journal (Elsevier) ---
+||sciencedirect.com/journal/fire-safety-journal$boost=3
+
+! --- Journal of Fire Sciences ---
+||journals.sagepub.com/home/jfs$boost=3
+
+! --- Combustion and Flame ---
+||sciencedirect.com/journal/combustion-and-flame$boost=3
+
+
+!==========================================================
+! SECTION 12: MAJOR HAZARD SITES & COMAH LEARNING (boost=3)
+!==========================================================
+
+! --- HSE COMAH Guidance ---
+||hse.gov.uk/comah$boost=3
+||hse.gov.uk/comah/sragtech$boost=3
+
+! --- MAHB (Major Hazard Bureau - EU JRC) ---
+||mahb.jrc.ec.europa.eu^$boost=3
+
+! --- Buncefield Investigation Board (UK) ---
+! Major fuel storage explosion 2005 — comprehensive investigation
+||buncefieldinvestigation.gov.uk^$boost=3
+
+! --- BP Texas City Review (Baker Panel) ---
+! Accessible via CSB — already covered above
+
+! --- HSE PADHI (planning and development around major hazards) ---
+||hse.gov.uk/landuseplanning$boost=3
+
+! --- RSSB (Rail Safety & Standards Board) — crossover ---
+||rssb.co.uk^$boost=2
+
+
+!==========================================================
+! SECTION 13: CHEMICAL REGULATORY COMPLIANCE (boost=2-3)
+!==========================================================
+
+! --- REACH / CLP (EU) — ECHA ---
+||echa.europa.eu^$boost=3
+
+! --- TSCA (Toxic Substances Control Act) — EPA ---
+||epa.gov/tsca$boost=3
+||epa.gov/chemical-safety-and-pollution-prevention$boost=3
+
+! --- COSHH (Control of Substances Hazardous to Health) UK ---
+||hse.gov.uk/coshh$boost=3
+||hse.gov.uk/coshh/basics$boost=3
+
+! --- GHS Implementation (UNECE) ---
+||unece.org/trans/danger/publi/ghs$boost=3
+
+! --- California Proposition 65 (OEHHA) ---
+||oehha.ca.gov/proposition-65$boost=3
+||oehha.ca.gov^$boost=2
+
+! --- ECHA SVHC Candidate List ---
+||echa.europa.eu/candidate-list-table$boost=3
+
+! --- EPA IRIS (Integrated Risk Information System) ---
+||epa.gov/iris$boost=3
+
+! --- GovInfo (US federal regulations text) ---
+||govinfo.gov^$boost=2
+||ecfr.gov^$boost=2
+
+! --- UK Environment Agency — Permits ---
+||environment-agency.gov.uk^$boost=2
+
+
+!==========================================================
+! SECTION 14: SIL / FUNCTIONAL SAFETY (boost=3)
+!==========================================================
+
+! --- IEC 61508 / IEC 61511 (Functional Safety SIS) ---
+! The foundational standards for SIL assessment
+! Accessed via IEC and national standards bodies
+||iec.ch^$boost=3
+||isa.org^$boost=3
+
+! --- ISA (International Society of Automation) ---
+! ISA 84 (ANSI/ISA-84.00.01 = IEC 61511 equivalent),
+! Alarm Management (ISA 18.2), SCADA safety
+||isa.org^$boost=3
+||isa.org/standards-and-publications$boost=3
+||isa.org/intech$boost=3
+
+! --- EXIDA (SIL assessment and certification body) ---
+||exida.com^$boost=3
+||exida.com/resources$boost=3
+
+! --- TÜV SÜD / TÜV Rheinland (functional safety) ---
+||tuvsud.com/en/services/product-testing/functional-safety$boost=2
+||tuv.com^$boost=2
+
+! --- IEC 62061 (Machinery Functional Safety) ---
+! Cross-reference for chemical process machinery
+||iec.ch^$boost=3
+
+
+!==========================================================
+! SECTION 15: SPECIALIST HSE PUBLISHERS & COMMUNITIES (boost=2)
+!==========================================================
+
+! --- PubMed / MEDLINE (Occupational Health Literature) ---
+||pubmed.ncbi.nlm.nih.gov^$boost=3
+||ncbi.nlm.nih.gov/pmc^$boost=3
+
+! --- SafetyLit (Safety Literature Database) ---
+||safetylit.org^$boost=3
+
+! --- ScienceDirect (Elsevier HSE journals) ---
+||sciencedirect.com^$boost=2
+
+! --- Springer / Springer Link (Safety & IH journals) ---
+||link.springer.com^$boost=2
+
+! --- Wiley Online Library ---
+||onlinelibrary.wiley.com^$boost=2
+
+! --- Taylor & Francis (HSE journals) ---
+||tandfonline.com^$boost=2
+
+! --- MDPI (open access safety journals) ---
+||mdpi.com^$boost=1
+
+! --- Google Scholar ---
+||scholar.google.com^$boost=2
+
+! --- HSE books and L-series guidance ---
+||books.hse.gov.uk^$boost=3
+
+! --- IOSH The Safety Conversation ---
+||iosh.com/resources/our-oh-and-safety-community$boost=2
+
+! --- OHSAS 18001 / ISO 45001 ---
+||iso.org/iso-45001-occupational-health-and-safety$boost=3
+||iso.org^$boost=2
+
+
+!==========================================================
+! SECTION 16: TRAINING, QUALIFICATIONS & COMMUNITIES (boost=2)
+!==========================================================
+
+! --- NEBOSH (National Examination Board in OSH) ---
+||nebosh.org.uk^$boost=3
+||nebosh.org.uk/qualifications$boost=3
+
+! --- IOSH (Institution of Occupational Safety and Health) ---
+||iosh.com^$boost=3
+
+! --- ASSP (American Society of Safety Professionals) ---
+||assp.org^$boost=2
+||assp.org/resources$boost=2
+
+! --- CCPS Safety Education Resources ---
+||aiche.org/ccps/education$boost=3
+
+! --- IChemE Training ---
+||icheme.org/education-and-training$boost=2
+
+! --- Safety Institute of Australia ---
+||sia.org.au^$boost=2
+
+! --- NFPA Training & Resources ---
+||nfpa.org/training$boost=2
+
+! --- SFPE Education ---
+||sfpe.org/education-certification$boost=2
+
+! --- Stack Exchange — Workplace Safety ---
+||workplace.stackexchange.com^$boost=1
+||chemistry.stackexchange.com^$boost=1
+
+! --- Reddit (specialist HSE subreddits only) ---
+||www.reddit.com/r/SafetyProfessionals$boost=1
+||www.reddit.com/r/IH$boost=1
+||www.reddit.com/r/oilsands$boost=1
+
+! --- Petrowiki (SPE process safety content) ---
+||petrowiki.spe.org^$boost=2
+
+
+!==========================================================
+! SECTION 17: DOWNRANK — LOW-SIGNAL SAFETY MEDIA
+! Generic HSE news, EHS software blogs, and industry
+! publications that cover safety only superficially.
+!==========================================================
+
+! --- Generic safety equipment seller blogs ---
+! (products are fine — their content blogs are low signal)
+||grainger.com/content$downrank=3
+||msa-safety.com/blog$downrank=3
+||3m.com/safety/blog$downrank=3
+||dupont.com/safety/blog$downrank=3
+
+! --- EHS software vendor marketing disguised as guidance ---
+||velsource.com^$downrank=3
+||cority.com/blog$downrank=3
+||intelex.com/blog$downrank=3
+||healthandsafety.co.uk^$downrank=2
+||safetymint.com^$downrank=3
+||ehs.com/blogs$downrank=2
+||safetyculture.com/topics$downrank=2
+||lucidoc.com^$downrank=3
+||enablon.com/blog$downrank=3
+||alcumus.com/insights$downrank=2
+||riskonnect.com/blog$downrank=3
+||sphera.com/blog$downrank=3
+
+! --- General trade HR/compliance sites ---
+||shrm.org^$downrank=2
+||workforce.com^$downrank=2
+||ehr.com^$downrank=3
+||compliancygroup.com^$downrank=3
+
+! --- SEO-driven general safety article sites ---
+||safetymag.com^$downrank=3
+||ehsdailyadvisor.blr.com^$downrank=2
+||safetyandhealthmagazine.com^$downrank=2
+||ishn.com^$downrank=2
+||occupationalhealthandsafety.com^$downrank=2
+||safeopedia.com^$downrank=2
+||toolboxtopics.com^$downrank=3
+||safetyservicescompany.com^$downrank=3
+||creative-safety-supply.com/blog$downrank=3
+||safetysign.com/safety-resources$downrank=3
+
+! --- Wikipedia (overview only — not authoritative for HSE) ---
+||en.wikipedia.org^$downrank=2
+
+! --- General press (shallow safety coverage) ---
+||techcrunch.com^$downrank=3
+||theatlantic.com^$downrank=2
+||theguardian.com^$downrank=1
+||bbc.com/news$downrank=2
+||nytimes.com^$downrank=2
+||forbes.com^$downrank=2
+||businessinsider.com^$downrank=2
+
+! --- Paywalled financial press ---
+||wsj.com^$downrank=2
+||ft.com^$downrank=2
+||bloomberg.com^$downrank=2
+
+
+!==========================================================
+! SECTION 18: DISCARD — IRRELEVANT NOISE
+!==========================================================
+
+! --- Safety equipment e-commerce (not guidance) ---
+||safetycompany.com^$discard
+||grainger.com^$discard
+||mscdirect.com^$discard
+||uline.com^$discard
+||globalindustrial.com^$discard
+||amazon.com^$discard
+
+! --- Job boards ---
+||indeed.com^$discard
+||linkedin.com^$discard
+||glassdoor.com^$discard
+||monster.com^$discard
+||totaljobs.com^$discard
+||reed.co.uk^$discard
+||jobs.oilcareers.com^$discard
+||rigzone.com/jobs$discard
+
+! --- Social media ---
+||twitter.com^$discard
+||x.com^$discard
+||facebook.com^$discard
+||instagram.com^$discard
+||tiktok.com^$discard
+||pinterest.com^$discard
+||youtube.com^$discard
+
+! --- Course aggregators ---
+||udemy.com^$discard
+||coursera.org^$discard
+||skillshare.com^$discard
+||pluralsight.com^$discard
+
+! --- Listicle and viral content ---
+||buzzfeed.com^$discard
+||ranker.com^$discard
+||listverse.com^$discard
