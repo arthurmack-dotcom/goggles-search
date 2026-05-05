@@ -42,16 +42,4 @@ $boost=6,site=.gov
 $boost=6,site=patents.google.com 
 $boost=6,site=worldwide.espacenet.com 
  
-$boost=6,/electrolyte/ 
-$boost=6,/electrolytes/ 
-$boost=6,/solid-electrolyte-interphase/ 
-$boost=6,/SEI/ 
-$boost=6,/CEI/ 
-$boost=6,/lithium-metal/ 
-$boost=6,/zinc-bromine/ 
-$boost=6,/zinc-bromide/ 
-$boost=6,/redox-flow-battery/ 
-$boost=6,/ionic-liquid/ 
-$boost=6,/cyclic-voltammetry/ 
-$boost=6,/electrochemical-impedance/ 
-$boost=6,/EIS/
+
