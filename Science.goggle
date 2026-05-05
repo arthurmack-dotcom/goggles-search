@@ -2,13 +2,293 @@
 ! description: Show only results from Science in Brave Search
 ! public: true
 ! author: Art
-! Change default so that anything NOT matching an instruction is removed
+! avatar: #0D47A1
+
+! ============================================================
+! Change default so that anything NOT matching an instruction
+! is removed. Only sites explicitly listed below will appear.
+! ============================================================
 $discard
-! Keep and strongly boost
+
+! ============================================================
+! SECTION 1: Multidisciplinary Journals & Publishers
+! ============================================================
+
 $boost=10,site=science.org
-$boost=10,site=scholar.google.com
-$boost=10,site=science.gov
-$boost=10,site=frontiersin.org
-$boost=10,site=scienceopen.com
-$boost=10,site=sciencedirect.com
+$boost=10,site=nature.com
 $boost=10,site=pnas.org
+$boost=10,site=sciencedirect.com
+$boost=10,site=cell.com
+$boost=9,site=onlinelibrary.wiley.com
+$boost=9,site=link.springer.com
+$boost=9,site=tandfonline.com
+$boost=8,site=frontiersin.org
+$boost=8,site=mdpi.com
+$boost=8,site=iopscience.iop.org
+$boost=8,site=journals.aps.org
+$boost=7,site=degruyter.com
+$boost=7,site=academic.oup.com
+$boost=7,site=cambridge.org
+$boost=7,site=annualreviews.org
+$boost=7,site=peerj.com
+$boost=6,site=plos.org
+$boost=6,site=hindawi.com
+$boost=6,site=royalsocietypublishing.org
+$boost=6,site=scienceopen.com
+$boost=5,site=doaj.org
+
+! ============================================================
+! SECTION 2: Chemistry
+! Journals, databases, spectral/thermo references
+! ============================================================
+
+! -- Journals --
+$boost=10,site=pubs.acs.org
+$boost=10,site=pubs.rsc.org
+$boost=8,site=rsc.org
+
+! -- Chemical databases & property lookup --
+$boost=10,site=pubchem.ncbi.nlm.nih.gov
+$boost=10,site=webbook.nist.gov
+$boost=9,site=commonchemistry.cas.org
+$boost=8,site=chemspider.com
+$boost=8,site=sigmaaldrich.com
+$boost=8,site=thermofisher.com
+$boost=7,site=fishersci.com
+$boost=7,site=chemicalbook.com
+$boost=7,site=iupac.org
+
+! -- Spectral databases --
+$boost=7,site=sdbs.db.aist.go.jp
+$boost=6,site=spectrabase.com
+$boost=6,site=massbank.eu
+
+! -- Thermodynamic & phase data --
+$boost=8,site=crct.polymtl.ca
+$boost=7,site=factsage.com
+$boost=7,site=olisystems.com
+
+! ============================================================
+! SECTION 3: Physics & Astronomy
+! ============================================================
+
+$boost=9,site=journals.aps.org
+$boost=9,site=aip.scitation.org
+$boost=8,site=iopscience.iop.org
+$boost=8,site=physics.nist.gov
+$boost=7,site=physicsworld.com
+$boost=7,site=aps.org
+$boost=7,site=cern.ch
+$boost=7,site=nasa.gov
+$boost=7,site=esa.int
+$boost=6,site=space.com
+$boost=6,site=skyandtelescope.org
+$boost=6,site=hubblesite.org
+$boost=5,site=astrobites.org
+
+! ============================================================
+! SECTION 4: Biology, Life Sciences & Medicine
+! ============================================================
+
+$boost=10,site=pubmed.ncbi.nlm.nih.gov
+$boost=10,site=ncbi.nlm.nih.gov
+$boost=9,site=nih.gov
+$boost=8,site=ebi.ac.uk
+$boost=8,site=uniprot.org
+$boost=7,site=biorxiv.org
+$boost=7,site=medrxiv.org
+$boost=7,site=who.int
+$boost=7,site=cdc.gov
+$boost=6,site=drugbank.com
+$boost=6,site=genome.gov
+$boost=6,site=proteinatlas.org
+$boost=5,site=biorender.com
+
+! ============================================================
+! SECTION 5: Earth Sciences, Geology & Environment
+! ============================================================
+
+$boost=9,site=usgs.gov
+$boost=9,site=minerals.usgs.gov
+$boost=8,site=earthobservatory.nasa.gov
+$boost=8,site=noaa.gov
+$boost=7,site=agu.org
+$boost=7,site=geosociety.org
+$boost=7,site=mindat.org
+$boost=7,site=epa.gov
+$boost=6,site=climate.gov
+$boost=6,site=earthquake.usgs.gov
+$boost=6,site=iris.edu
+$boost=5,site=volcanodiscovery.com
+
+! ============================================================
+! SECTION 6: Engineering & Materials Science
+! ============================================================
+
+$boost=8,site=aiche.org
+$boost=8,site=asme.org
+$boost=7,site=ieee.org
+$boost=7,site=spe.org
+$boost=7,site=icheme.org
+$boost=7,site=aspentech.com
+$boost=6,site=chemengonline.com
+$boost=6,site=nace.org
+$boost=6,site=astm.org
+$boost=6,site=matweb.com
+$boost=5,site=processingmagazine.com
+$boost=5,site=mining-technology.com
+$boost=5,site=mining.com
+
+! ============================================================
+! SECTION 7: Mathematics & Computer Science
+! ============================================================
+
+$boost=7,site=mathscinet.ams.org
+$boost=7,site=ams.org
+$boost=6,site=maa.org
+$boost=6,site=mathworld.wolfram.com
+$boost=6,site=wolframalpha.com
+$boost=5,site=projecteuclid.org
+$boost=5,site=siam.org
+$boost=5,site=acm.org
+
+! ============================================================
+! SECTION 8: Preprint Servers & Open Access Repositories
+! ============================================================
+
+$boost=9,site=arxiv.org
+$boost=8,site=chemrxiv.org
+$boost=7,site=biorxiv.org
+$boost=7,site=medrxiv.org
+$boost=7,site=ssrn.com
+$boost=6,site=preprints.org
+$boost=6,site=osf.io
+$boost=5,site=zenodo.org
+
+! ============================================================
+! SECTION 9: Discovery, Indexing & Search
+! ============================================================
+
+$boost=10,site=scholar.google.com
+$boost=8,site=semanticscholar.org
+$boost=7,site=dimensions.ai
+$boost=6,site=crossref.org
+$boost=6,site=lens.org
+$boost=5,site=base-search.net
+$boost=5,site=core.ac.uk
+
+! ============================================================
+! SECTION 10: Government, National Labs & Funding Agencies
+! ============================================================
+
+$boost=10,site=science.gov
+$boost=9,site=nist.gov
+$boost=9,site=osti.gov
+$boost=8,site=energy.gov
+$boost=8,site=nsf.gov
+$boost=8,site=nasa.gov
+$boost=7,site=ornl.gov
+$boost=7,site=anl.gov
+$boost=7,site=sandia.gov
+$boost=7,site=lanl.gov
+$boost=7,site=pnnl.gov
+$boost=7,site=lbl.gov
+$boost=7,site=inl.gov
+$boost=6,site=nih.gov
+$boost=6,site=epa.gov
+$boost=6,site=noaa.gov
+$boost=6,site=cdc.gov
+$boost=5,site=darpa.mil
+$boost=5,site=nrel.gov
+$boost=5,site=netl.doe.gov
+
+! ============================================================
+! SECTION 11: Safety, Regulatory & Standards
+! ============================================================
+
+$boost=7,site=osha.gov
+$boost=7,site=echa.europa.eu
+$boost=6,site=inchem.org
+$boost=6,site=unece.org
+$boost=5,site=iso.org
+$boost=5,site=hazmat.dot.gov
+
+! ============================================================
+! SECTION 12: Patents
+! ============================================================
+
+$boost=7,site=patents.google.com
+$boost=6,site=patentscope.wipo.int
+$boost=6,site=espacenet.com
+$boost=5,site=freepatentsonline.com
+$boost=5,site=lens.org
+
+! ============================================================
+! SECTION 13: Educational & Reference
+! ============================================================
+
+$boost=7,site=chem.libretexts.org
+$boost=7,site=phys.libretexts.org
+$boost=7,site=bio.libretexts.org
+$boost=7,site=eng.libretexts.org
+$boost=7,site=geo.libretexts.org
+$boost=6,site=khanacademy.org
+$boost=6,site=mit.edu
+$boost=6,site=ocw.mit.edu
+$boost=6,site=hyperphysics.phy-astr.gsu.edu
+$boost=5,site=chemguide.co.uk
+$boost=5,site=masterorganicchemistry.com
+$boost=5,site=chemistrysteps.com
+$boost=5,site=brilliant.org
+
+! -- Wikipedia: useful as a starting point --
+$boost=4,site=en.wikipedia.org
+
+! -- Encyclopedias --
+$boost=4,site=britannica.com
+$boost=3,site=encyclopedia.com
+
+! ============================================================
+! SECTION 14: Science News & Magazines
+! ============================================================
+
+$boost=6,site=scientificamerican.com
+$boost=6,site=newscientist.com
+$boost=5,site=quantamagazine.org
+$boost=5,site=arstechnica.com/science
+$boost=5,site=phys.org
+$boost=4,site=livescience.com
+$boost=4,site=iflscience.com
+$boost=4,site=sciencenews.org
+$boost=4,site=the-scientist.com
+$boost=3,site=sciencealert.com
+$boost=3,site=eurekalert.org
+
+! ============================================================
+! SECTION 15: Technical Communities & Forums
+! ============================================================
+
+$boost=5,site=chemistry.stackexchange.com
+$boost=5,site=physics.stackexchange.com
+$boost=5,site=biology.stackexchange.com
+$boost=5,site=earthscience.stackexchange.com
+$boost=5,site=engineering.stackexchange.com
+$boost=4,site=math.stackexchange.com
+$boost=4,site=scienceforums.net
+$boost=4,site=chemicalforums.com
+$boost=3,site=researchgate.net
+$boost=3,site=academia.edu
+
+! ============================================================
+! SECTION 16: Computation & Modeling Software
+! ============================================================
+
+$boost=5,site=gaussian.com
+$boost=5,site=orcasoftware.de
+$boost=4,site=openbabel.org
+$boost=4,site=rdkit.org
+$boost=4,site=lammps.org
+$boost=4,site=openfoam.com
+$boost=3,site=avogadro.cc
+$boost=3,site=comsol.com
+$boost=3,site=mathworks.com
