@@ -1,0 +1,775 @@
+! name: Oil & Gas Industry — Technical & Regulatory Search
+! description: Boosts authoritative upstream, midstream, and downstream sources for oil and gas professionals. Elevates regulatory agencies (EIA, BSEE, FERC, PHMSA), technical societies (SPE, API, IOGP, ASME), peer-reviewed journals (OnePetro, OGJ, JPT), market data providers (S&P Platts, Argus, ICIS), safety and environmental bodies, and service company research. Downranks financial speculation content, general news coverage, and SEO-driven energy content farms. Ideal for reservoir engineering, drilling, production, pipeline, refining, LNG, petrochemicals, HSE, and regulatory compliance searches.
+! public: true
+! author: SecPortal — Oil & Gas Edition
+! homepage: https://search.brave.com/goggles/discover
+
+!==========================================================
+! OIL & GAS INDUSTRY — TECHNICAL & REGULATORY GOGGLE
+! Version: 1.0  |  Updated: May 2025
+!
+! COVERAGE:
+!   Upstream    — E&P, drilling, reservoir, geoscience, well completion
+!   Midstream   — Pipelines, compression, gas processing, LNG, storage
+!   Downstream  — Refining, petrochemicals, distribution, product specs
+!   HSE         — Safety, environmental, process safety, incident data
+!   Regulatory  — US federal, international, standards bodies
+!   Market Data — Price reporting, supply/demand data, analytics
+!
+! BOOST LEVELS:
+!   3 = Primary authoritative source (gov agency, official standard body,
+!       dedicated technical journal, primary data source)
+!   2 = Trusted technical source (industry trade press, service company
+!       research, professional society, peer-reviewed journal)
+!   1 = Useful community or business source (forums, directories,
+!       general industry news with technical depth)
+!
+! DOWNRANK:
+!   1 = General news with shallow O&G coverage
+!   2 = Financial/investor-focused, limited technical value
+!   3 = Content farm or SEO energy article aggregator
+!
+! DISCARD = Listicle sites, affiliate content, irrelevant noise
+!==========================================================
+
+
+!==========================================================
+! SECTION 1: US GOVERNMENT & REGULATORY AGENCIES (boost=3)
+! Primary authoritative sources — data, regulations, permits
+!==========================================================
+
+! --- Energy Information Administration (EIA) ---
+! The primary US government source for energy statistics and data
+||eia.gov^$boost=3
+
+! --- Bureau of Safety & Environmental Enforcement (BSEE) ---
+! Offshore safety and environmental regulations — OCS
+||bsee.gov^$boost=3
+
+! --- Bureau of Ocean Energy Management (BOEM) ---
+! Offshore leasing, resource management, environmental review
+||boem.gov^$boost=3
+
+! --- Pipeline & Hazardous Materials Safety Administration (PHMSA) ---
+! Federal pipeline safety regulations, incident data, rulemaking
+||phmsa.dot.gov^$boost=3
+
+! --- Federal Energy Regulatory Commission (FERC) ---
+! Interstate pipeline rates, LNG terminal approvals, gas markets
+||ferc.gov^$boost=3
+
+! --- Environmental Protection Agency — Oil & Gas ---
+! Methane rules, NSPS OOOOa/OOOOb, spill regulations
+||epa.gov^$boost=2
+||epa.gov/natural-gas-star-program$boost=3
+||epa.gov/controlling-air-pollution-oil-and-natural-gas-industry$boost=3
+||epa.gov/oil-spills-prevention-and-preparedness-regulations$boost=3
+
+! --- Department of Energy (DOE) ---
+! LNG export authorizations, energy technology R&D
+||energy.gov^$boost=3
+||fossil.energy.gov^$boost=3
+||netl.doe.gov^$boost=3
+
+! --- Department of Interior (DOI) ---
+! Land management, onshore leasing
+||doi.gov^$boost=2
+||blm.gov^$boost=2
+
+! --- Occupational Safety & Health Administration (OSHA) ---
+! Process Safety Management (PSM), drilling safety
+||osha.gov^$boost=3
+
+! --- Chemical Safety Board (CSB) ---
+! Root cause investigation reports — process safety incidents
+||csb.gov^$boost=3
+
+! --- US Geological Survey (USGS) ---
+! Resource assessments, seismic data, formation geology
+||usgs.gov^$boost=3
+||pubs.usgs.gov^$boost=3
+
+! --- National Institute of Standards and Technology (NIST) ---
+! Physical property data critical for process and reservoir engineering
+||webbook.nist.gov^$boost=3
+||nist.gov^$boost=2
+
+! --- Federal Register — O&G rulemaking ---
+||federalregister.gov^$boost=2
+||regulations.gov^$boost=2
+
+
+!==========================================================
+! SECTION 2: INTERNATIONAL AGENCIES & BODIES (boost=2-3)
+!==========================================================
+
+! --- International Energy Agency (IEA) ---
+! Global supply/demand, World Energy Outlook, gas market reports
+||iea.org^$boost=3
+
+! --- OPEC ---
+! Production data, World Oil Outlook, monthly oil market reports
+||opec.org^$boost=3
+
+! --- International Energy Forum (IEF) ---
+||ief.org^$boost=2
+
+! --- European Commission — Energy ---
+! EU energy policy, gas storage, methane regulation
+||ec.europa.eu/energy$boost=3
+||energy.ec.europa.eu^$boost=3
+
+! --- UK North Sea Transition Authority (NSTA) ---
+! UK offshore licensing, production data, decommissioning
+||nstauthority.co.uk^$boost=3
+
+! --- Norwegian Petroleum Directorate (NPD) ---
+! North Sea data, field reports, resource accounts
+||npd.no^$boost=3
+||norskpetroleum.no^$boost=3
+
+! --- National Energy Board / Canada Energy Regulator ---
+||cer-rec.gc.ca^$boost=3
+
+! --- International Maritime Organization (IMO) ---
+! MARPOL, offshore vessel regulations
+||imo.org^$boost=2
+
+! --- UN Environment Programme — Oil Spill ---
+||unep.org^$boost=2
+
+
+!==========================================================
+! SECTION 3: STANDARDS & TECHNICAL SOCIETIES (boost=3)
+! The definitive sources for technical standards and specifications
+!==========================================================
+
+! --- American Petroleum Institute (API) ---
+! 800+ industry standards — wellbore integrity, equipment specs,
+! measurement, environmental practices. THE primary O&G standard body.
+||api.org^$boost=3
+
+! --- Society of Petroleum Engineers (SPE) ---
+! Leading technical society — conferences, journals, training
+||spe.org^$boost=3
+||jpt.spe.org^$boost=3
+
+! --- OnePetro — SPE/Society Technical Library ---
+! 1.4 million+ technical documents — conference papers, journals
+||onepetro.org^$boost=3
+
+! --- International Association of Oil & Gas Producers (IOGP) ---
+! HSE statistics, life-saving rules, technical reports, guidelines
+||iogp.org^$boost=3
+
+! --- IPIECA (Oil & Gas Industry Environmental Association) ---
+! Environmental and social guidelines, sustainability reporting
+||ipieca.org^$boost=3
+
+! --- ASME International ---
+! Pressure vessel (BPVC), piping (B31.3, B31.4, B31.8), and
+! fitness-for-service (API 579 / ASME FFS-1) standards
+||asme.org^$boost=3
+
+! --- ASTM International ---
+! Material specifications, test methods for fuels, lubricants
+||astm.org^$boost=3
+||www.astm.org/products-services/standards-and-publications$boost=3
+
+! --- NACE International (now AMPP) ---
+! Corrosion engineering — pipeline integrity, cathodic protection,
+! H2S service (NACE MR0175 / ISO 15156)
+||ampp.org^$boost=3
+||nace.org^$boost=3
+
+! --- International Association of Drilling Contractors (IADC) ---
+! Drilling standards, HSE case guidelines, well control
+||iadc.org^$boost=3
+
+! --- Society of Exploration Geophysicists (SEG) ---
+! Seismic interpretation, geophysical methods
+||seg.org^$boost=3
+||library.seg.org^$boost=3
+
+! --- American Association of Petroleum Geologists (AAPG) ---
+! Geology, basin analysis, reservoir characterization
+||aapg.org^$boost=3
+||datapages.com^$boost=3
+
+! --- Gas Processors Association (GPA) ---
+! Natural gas processing standards, equilibrium data, NGL specifications
+||gpaglobal.org^$boost=3
+
+! --- American Gas Association (AGA) ---
+! Gas measurement standards, pipeline codes
+||aga.org^$boost=3
+
+! --- AIChE (American Institute of Chemical Engineers) ---
+! Process safety (CCPS), refining, chemical processing
+||aiche.org^$boost=3
+||aiche.org/ccps$boost=3
+
+! --- Energy Institute (UK) ---
+! Process safety framework, hazardous area classification, bow-tie
+||energyinst.org^$boost=3
+
+! --- ISO — Energy Standards ---
+||iso.org^$boost=2
+
+! --- IEC — Electrical Hazardous Areas ---
+||iec.ch^$boost=2
+
+
+!==========================================================
+! SECTION 4: TECHNICAL TRADE JOURNALS & MAGAZINES (boost=3)
+! Peer-reviewed and practitioner-level publications
+!==========================================================
+
+! --- Oil & Gas Journal (OGJ) — Since 1902 ---
+! The definitive industry trade journal — upstream/mid/downstream
+||ogj.com^$boost=3
+
+! --- Journal of Petroleum Technology (JPT) — SPE ---
+||jpt.spe.org^$boost=3
+
+! --- World Oil ---
+! Upstream — drilling, production, completions, reservoir
+||worldoil.com^$boost=3
+
+! --- Offshore Magazine (PennWell) ---
+! Deepwater, subsea, offshore engineering, FPSO
+||offshore-mag.com^$boost=3
+
+! --- Drilling Contractor (IADC) ---
+! Drilling technology, well control, rig operations
+||drillingcontractor.org^$boost=3
+
+! --- Pipeline & Gas Journal ---
+! Midstream — pipeline technology, integrity, compression, storage
+||pgjonline.com^$boost=3
+
+! --- Gas Processing News ---
+||gasprocessingnews.com^$boost=3
+
+! --- Hydrocarbon Processing ---
+! Refining and petrochemical technology
+||hydrocarbonprocessing.com^$boost=3
+
+! --- LNG Journal ---
+||lngjournal.com^$boost=3
+
+! --- Upstream Online (NHST) ---
+||upstreamonline.com^$boost=2
+
+! --- Hart Energy Publications ---
+! E&P, Oil and Gas Investor, Pipeline & Gas Technology
+||hartenergy.com^$boost=2
+
+! --- Offshore Engineer (OEDigital) ---
+||oedigital.com^$boost=3
+
+! --- Oilfield Technology ---
+||oilfieldtechnology.com^$boost=2
+
+! --- GasTech Engineering ---
+||gastechengineering.com^$boost=2
+
+! --- Rigzone (industry news + data) ---
+||rigzone.com^$boost=2
+
+
+!==========================================================
+! SECTION 5: PEER-REVIEWED ACADEMIC JOURNALS (boost=2-3)
+!==========================================================
+
+! --- Elsevier — Petroleum & Energy Journals ---
+||sciencedirect.com/journal/journal-of-petroleum-science-and-engineering$boost=3
+||sciencedirect.com/journal/petroleum-research$boost=3
+||sciencedirect.com/journal/upstream-oil-and-gas-technology$boost=3
+||sciencedirect.com/journal/fuel$boost=3
+||sciencedirect.com/journal/applied-energy$boost=3
+||sciencedirect.com/journal/energy$boost=3
+||sciencedirect.com/journal/energy-conversion-and-management$boost=3
+||sciencedirect.com/journal/journal-of-natural-gas-science-and-engineering$boost=3
+||sciencedirect.com/journal/international-journal-of-greenhouse-gas-control$boost=3
+||sciencedirect.com/journal/chemical-engineering-journal$boost=2
+
+! --- Elsevier (general access) ---
+||sciencedirect.com^$boost=2
+
+! --- Springer ---
+||link.springer.com/journal/12182$boost=3
+||link.springer.com^$boost=2
+
+! --- Wiley Online Library ---
+||onlinelibrary.wiley.com^$boost=2
+
+! --- ACS Publications — Energy & Fuels ---
+||pubs.acs.org/journal/enfuem$boost=3
+||pubs.acs.org^$boost=2
+
+! --- Taylor & Francis / Informa ---
+||tandfonline.com^$boost=2
+
+! --- RSC Publishing ---
+||pubs.rsc.org^$boost=2
+
+! --- arXiv — Petroleum / Energy papers ---
+||arxiv.org/search/?searchtype=all&query=petroleum$boost=3
+||arxiv.org/search/?searchtype=all&query=reservoir+engineering$boost=3
+||arxiv.org^$boost=1
+
+! --- Research Gate (preprints and papers) ---
+||researchgate.net^$boost=1
+
+! --- Google Scholar ---
+||scholar.google.com^$boost=2
+
+
+!==========================================================
+! SECTION 6: MARKET DATA & PRICE REPORTING (boost=3)
+! Primary price and supply/demand data sources
+!==========================================================
+
+! --- EIA Data (primary US source) ---
+||eia.gov/petroleum$boost=3
+||eia.gov/naturalgas$boost=3
+||eia.gov/dnav/pet$boost=3
+||eia.gov/dnav/ng$boost=3
+||eia.gov/todayinenergy$boost=3
+
+! --- S&P Global Commodity Insights (Platts) ---
+! The benchmark price reporting agency — Dated Brent, WTI, Henry Hub
+||spglobal.com/commodityinsights$boost=3
+||platts.com^$boost=3
+
+! --- Argus Media ---
+! Independent price reporting — crude, products, LNG
+||argusmedia.com^$boost=3
+
+! --- ICIS ---
+! Petrochemicals and polymer pricing and analysis
+||icis.com^$boost=3
+
+! --- IEA Oil Market Reports ---
+||iea.org/topics/oil-market$boost=3
+||iea.org/reports$boost=3
+
+! --- OPEC Monthly Oil Market Report ---
+||opec.org/opec_web/en/publications/338.htm$boost=3
+
+! --- CME Group — Futures Data ---
+||cmegroup.com/markets/energy$boost=2
+
+! --- Rystad Energy ---
+! Industry analytics and research (subscription) — public reports free
+||rystadenergy.com^$boost=2
+
+! --- Wood Mackenzie ---
+! Upstream analytics, asset valuations, energy transition
+||woodmac.com^$boost=2
+
+! --- Enverus (formerly DrillingInfo) ---
+! Well data, production data, M&A analytics
+||enverus.com^$boost=2
+
+! --- Baker Hughes Rig Count ---
+! The industry-standard weekly rig count data
+||bakerhughes.com/rig-count$boost=3
+||rigcount.bakerhughes.com^$boost=3
+
+
+!==========================================================
+! SECTION 7: MAJOR OILFIELD SERVICE COMPANY RESEARCH (boost=2)
+! Technical resources, case studies, engineering documentation
+!==========================================================
+
+! --- SLB (Schlumberger) ---
+||slb.com/resources$boost=2
+||slb.com/technical-paper$boost=2
+||slb.com/oilfield-review$boost=3
+||oilfieldreview.slb.com^$boost=3
+||connect.slb.com^$boost=2
+
+! --- Halliburton ---
+||halliburton.com/en/resources$boost=2
+||halliburton.com/en/resources/publications$boost=2
+
+! --- Baker Hughes ---
+||bakerhughes.com/resources/insights$boost=2
+||bakerhughes.com/resources/case-studies$boost=2
+
+! --- Weatherford ---
+||weatherford.com/en/resources$boost=2
+
+! --- TechnipFMC ---
+||technipfmc.com/en/insights$boost=2
+
+! --- Subsea7 ---
+||subsea7.com/en/thought-leadership$boost=2
+
+! --- Wood Group / Amec Foster Wheeler ---
+||woodplc.com/insights$boost=2
+
+! --- McDermott ---
+||mcdermott.com/en/insights$boost=2
+
+
+!==========================================================
+! SECTION 8: HSE, PROCESS SAFETY & ENVIRONMENTAL (boost=3)
+!==========================================================
+
+! --- US Chemical Safety Board (CSB) ---
+! Investigation reports — Deepwater Horizon, Texas City, and more
+||csb.gov^$boost=3
+||csb.gov/investigations$boost=3
+
+! --- BSEE Safety Alerts ---
+||bsee.gov/safety-and-technology/safety-alerts$boost=3
+
+! --- OSHA Oil & Gas ---
+||osha.gov/oil-and-gas-well-drilling-and-servicing$boost=3
+
+! --- Health & Safety Executive (UK) — Offshore ---
+||hse.gov.uk/offshore$boost=3
+||hse.gov.uk^$boost=2
+
+! --- IOGP Safety Data ---
+||iogp.org/publications/safety$boost=3
+
+! --- CCPS (Center for Chemical Process Safety) — AIChE ---
+||aiche.org/ccps$boost=3
+
+! --- Energy Institute Process Safety ---
+||energyinst.org/technical-work/process-safety$boost=3
+
+! --- EPA Methane / GHG Reporting ---
+||epa.gov/ghgreporting$boost=3
+||epa.gov/enviro/facts/ghg$boost=3
+
+! --- NOAA Spill Response ---
+||response.restoration.noaa.gov^$boost=3
+
+! --- International Oil Pollution Compensation Funds (IOPC) ---
+||iopcfunds.org^$boost=2
+
+! --- EMSA (European Maritime Safety Agency) ---
+||emsa.europa.eu^$boost=2
+
+
+!==========================================================
+! SECTION 9: GEOSCIENCE & SUBSURFACE DATA (boost=2-3)
+!==========================================================
+
+! --- USGS Energy Resources ---
+||pubs.usgs.gov/periodicals/ofr$boost=3
+||usgs.gov/energy-and-minerals$boost=3
+||mrdata.usgs.gov^$boost=3
+
+! --- AAPG Datapages ---
+! Geological publications and basin data
+||datapages.com^$boost=3
+
+! --- SEG — Seismic Interpretation ---
+||seg.org/publications$boost=3
+||library.seg.org^$boost=3
+
+! --- PGS Geophysical Reports ---
+||pgs.com/technical-library$boost=2
+
+! --- CGG — Subsurface Insights ---
+||cgg.com/resources/insights$boost=2
+
+! --- Petroleum Geoscience (Geological Society) ---
+||lyellcollection.org/toc/pg/current$boost=3
+
+! --- Geological Society Publications ---
+||lyellcollection.org^$boost=2
+
+! --- AAPG Bulletin ---
+||pubs.geoscienceworld.org/aapg$boost=3
+
+
+!==========================================================
+! SECTION 10: PIPELINE, MIDSTREAM & GAS PROCESSING (boost=2-3)
+!==========================================================
+
+! --- PHMSA Pipeline Data ---
+||phmsa.dot.gov/data-and-statistics/pipeline$boost=3
+||phmsa.dot.gov/pipeline/pipeline-incident-and-annual-data$boost=3
+
+! --- National Pipeline Mapping System ---
+||npms.phmsa.dot.gov^$boost=3
+
+! --- FERC Gas Pipeline Data ---
+||ferc.gov/industries-data/natural-gas$boost=3
+
+! --- GPA Midstream Conference ---
+||gpamidstream.org^$boost=3
+
+! --- Interstate Natural Gas Association of America (INGAA) ---
+||ingaa.org^$boost=2
+
+! --- Pipeline Research Council International (PRCI) ---
+||prci.org^$boost=3
+
+! --- European Pipeline Research Group ---
+||eprg.co.uk^$boost=2
+
+! --- Gas Technology Institute (GTI) ---
+||gti.energy^$boost=3
+
+! --- Pipeline & Gas Journal ---
+||pgjonline.com^$boost=3
+
+
+!==========================================================
+! SECTION 11: REFINING & PETROCHEMICALS (boost=2-3)
+!==========================================================
+
+! --- Hydrocarbon Processing ---
+||hydrocarbonprocessing.com^$boost=3
+
+! --- ICIS Petrochemicals ---
+||icis.com/explore/resources/news/petrochemicals$boost=3
+||icis.com/explore/resources/news/chemicals$boost=3
+
+! --- American Fuel & Petrochemical Manufacturers (AFPM) ---
+||afpm.org^$boost=3
+
+! --- European Petrochemical Association (EPCA) ---
+||epca.be^$boost=2
+
+! --- Cefic (European Chemical Industry) ---
+||cefic.org^$boost=2
+
+! --- ACC (American Chemistry Council) ---
+||americanchemistry.com^$boost=2
+
+! --- UOP / Honeywell Process Technology ---
+||uop.honeywell.com/en/engineering-insights$boost=2
+
+! --- Axens Technology ---
+||axens.net/resources$boost=2
+
+! --- ExxonMobil Chemical Technology ---
+||exxonmobilchemical.com/en/products-and-services/technology$boost=2
+
+
+!==========================================================
+! SECTION 12: LNG — LIQUEFIED NATURAL GAS (boost=2-3)
+!==========================================================
+
+! --- IEA LNG ---
+||iea.org/topics/gas$boost=3
+
+! --- GIIGNL (International Group of LNG Importers) ---
+||giignl.org^$boost=3
+
+! --- Shell LNG Outlook ---
+||shell.com/energy-and-innovation/natural-gas/lng/shell-lng-outlook$boost=2
+
+! --- LNG World News ---
+||lngworldnews.com^$boost=2
+
+! --- LNG Journal ---
+||lngjournal.com^$boost=3
+
+! --- Tellurian / Venture Global / Cheniere LNG updates ---
+! Boost via EIA and FERC filings — already covered above
+
+! --- Society for Gas as a Marine Fuel (SGMF) ---
+||sgmf.info^$boost=2
+
+
+!==========================================================
+! SECTION 13: ENERGY TRANSITION & SUSTAINABILITY (boost=2)
+! Carbon capture, methane abatement, hydrogen — within O&G context
+!==========================================================
+
+! --- IEA Net Zero / CCUS ---
+||iea.org/topics/carbon-capture-and-storage$boost=3
+||iea.org/topics/hydrogen$boost=3
+
+! --- Global CCS Institute ---
+||globalccsinstitute.com^$boost=3
+
+! --- DOE/NETL CCUS Research ---
+||netl.doe.gov/carbon-management$boost=3
+
+! --- Oil and Gas Climate Initiative (OGCI) ---
+||ogci.com^$boost=2
+
+! --- Rocky Mountain Institute — Energy ---
+||rmi.org/topics/oil-gas$boost=2
+
+! --- EPA Methane Challenge ---
+||epa.gov/natural-gas-star-program/natural-gas-star-program-overview$boost=3
+
+! --- ONE Future Coalition (methane) ---
+||onefuture.us^$boost=2
+
+! --- EDF Methane Research ---
+||edf.org/issue/methane-natural-gas$boost=2
+
+! --- Carbon Tracker —- Financial risk / stranded assets ---
+||carbontracker.org^$boost=2
+
+! --- H2 Council ---
+||h2council.com^$boost=2
+
+
+!==========================================================
+! SECTION 14: INDUSTRY ASSOCIATIONS & DIRECTORIES (boost=1-2)
+!==========================================================
+
+! --- American Petroleum Institute (API) — general ---
+||api.org^$boost=3
+
+! --- National Petroleum Council (NPC) ---
+||npc.org^$boost=2
+
+! --- Oil States — Equipment Specs ---
+||oilstates.com^$boost=1
+
+! --- Petrowiki (SPE community wiki) ---
+||petrowiki.spe.org^$boost=3
+
+! --- Schlumberger Oilfield Glossary ---
+||glossary.slb.com^$boost=3
+
+! --- Offshore Technology (GlobalData) ---
+||offshore-technology.com^$boost=2
+
+! --- Hart Energy events ---
+||hartenergy.com/events$boost=1
+
+! --- OTC (Offshore Technology Conference) ---
+||otcnet.org^$boost=2
+
+! --- SPE Annual Technical Conference (ATCE) ---
+! Papers accessed via OnePetro — already boosted above
+
+
+!==========================================================
+! SECTION 15: COUNTRY / NATIONAL OIL COMPANY DATA (boost=2)
+! Primary NOC technical and statistical publications
+!==========================================================
+
+||aramco.com/en/news-media/publications$boost=2
+||adnoc.ae/en/news-and-media$boost=2
+||equinor.com/energy/research-and-innovation$boost=2
+||bp.com/en/global/corporate/energy-economics$boost=3
+||shell.com/energy-and-innovation$boost=2
+||totalenergies.com/energy-expertise$boost=2
+||chevron.com/newsroom/research-and-publications$boost=2
+||exxonmobil.com/en/energy-and-environment$boost=2
+||conocophillips.com/news-media/publications$boost=2
+||petrobras.com.br/en/science-and-technology$boost=2
+
+! --- BP Statistical Review of World Energy ---
+||bp.com/en/global/corporate/energy-economics/statistical-review-of-world-energy$boost=3
+
+
+!==========================================================
+! SECTION 16: DOWNRANK — GENERAL ENERGY MEDIA
+! Publications that cover oil and gas superficially,
+! primarily from an investment or policy angle.
+!==========================================================
+
+||reuters.com^$downrank=1
+||bloomberg.com^$downrank=2
+||wsj.com^$downrank=2
+||ft.com^$downrank=2
+||cnbc.com^$downrank=2
+||marketwatch.com^$downrank=2
+||oilprice.com^$downrank=2
+||energynews.us^$downrank=2
+||energymonitor.ai^$downrank=2
+||theenergymix.com^$downrank=2
+||energycentral.com^$downrank=2
+||greentechmedia.com^$downrank=2
+||cleantechnica.com^$downrank=2
+||renewableenergyworld.com^$downrank=2
+||naturalgasintel.com^$downrank=1
+||naturalgasworld.com^$downrank=1
+||forbes.com^$downrank=2
+||businessinsider.com^$downrank=2
+||seekingalpha.com^$downrank=3
+||fool.com^$downrank=3
+||investopedia.com^$downrank=2
+||thestreet.com^$downrank=3
+||benzinga.com^$downrank=3
+||zacks.com^$downrank=3
+||stockanalysis.com^$downrank=3
+
+
+!==========================================================
+! SECTION 17: DOWNRANK — SHALLOW TECH / SEO CONTENT
+! Sites that produce keyword-stuffed "oil and gas" content
+! with no primary research or technical depth.
+!==========================================================
+
+||petrosync.com^$downrank=3
+||petroleum.co.uk^$downrank=3
+||oilandgasiq.com^$downrank=2
+||crudeoilandgas.com^$downrank=3
+||oilandgasportal.com^$downrank=3
+||energyeducation.ca^$downrank=2
+||petroneft.com^$downrank=3
+||futureofoilandgas.com^$downrank=3
+||drillingedge.com^$downrank=2
+||informationisbeautiful.net^$downrank=2
+||visualcapitalist.com^$downrank=2
+||statista.com^$downrank=2
+||ibisworld.com^$downrank=2
+
+! --- Generic tech-plus-energy blogs ---
+||techcrunch.com^$downrank=3
+||wired.com^$downrank=2
+||theverge.com^$downrank=3
+||gizmodo.com^$downrank=3
+||engadget.com^$downrank=3
+
+! --- Wikipedia (overview only — not primary for technical queries) ---
+||en.wikipedia.org^$downrank=2
+
+
+!==========================================================
+! SECTION 18: DISCARD — NOISE & IRRELEVANT CONTENT
+!==========================================================
+
+! --- Listicle & affiliate content ---
+||listverse.com^$discard
+||ranker.com^$discard
+||buzzfeed.com^$discard
+
+! --- Social media (no technical research value) ---
+||twitter.com^$discard
+||x.com^$discard
+||www.facebook.com^$discard
+||www.instagram.com^$discard
+||www.tiktok.com^$discard
+||www.pinterest.com^$discard
+||www.reddit.com^$discard
+
+! --- Job boards ---
+||www.indeed.com^$discard
+||www.linkedin.com^$discard
+||www.glassdoor.com^$discard
+||jobs.lever.co^$discard
+||careers.slb.com^$discard
+||careers.halliburton.com^$discard
+
+! --- Course / training aggregators (not primary technical content) ---
+||www.udemy.com^$discard
+||www.coursera.org^$discard
+||www.pluralsight.com^$discard
+
+! --- Travel/tourism noise around oil producing regions ---
+||tripadvisor.com^$discard
+||lonelyplanet.com^$discard
+
+! --- Crypto / NFT "oil" token content ---
+||coingecko.com^$discard
+||coinmarketcap.com^$discard
