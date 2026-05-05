@@ -255,7 +255,6 @@ $boost=3,site=encyclopedia.com
 $boost=6,site=scientificamerican.com
 $boost=6,site=newscientist.com
 $boost=5,site=quantamagazine.org
-$boost=5,site=arstechnica.com/science
 $boost=5,site=phys.org
 $boost=4,site=livescience.com
 $boost=4,site=iflscience.com
