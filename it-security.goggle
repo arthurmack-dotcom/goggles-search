@@ -1,0 +1,529 @@
+! name: IT Security & Threat Intelligence
+! description: Boosts authoritative cybersecurity sources — CVE databases, CERT advisories, threat intelligence feeds, security research blogs, and vendor advisories. Downranks SEO-driven content farms and generic tech news that only superficially covers security. Ideal for searching CVEs, threat actors, malware, vulnerabilities, and incident response topics.
+! public: true
+! author: SecPortal
+! homepage: https://search.brave.com/goggles/discover
+! issues: https://github.com/brave/goggles-quickstart/issues
+! transferred_to: https://search.brave.com/goggles/discover
+
+!==========================================================
+! IT SECURITY & THREAT INTELLIGENCE GOGGLE
+! Version: 1.0  |  Updated: May 2025
+!
+! BOOST LEVELS:
+!   3 = Authoritative primary source (gov, official CVE, dedicated security outlet)
+!   2 = Trusted secondary source (vendor research, established security blog)
+!   1 = Useful community source (forums, wikis, aggregators)
+!
+! DOWNRANK LEVELS:
+!   1 = Marginal relevance (general tech press, shallow coverage)
+!   2 = Low signal (clickbait security headlines, paywalled with no preview)
+!   3 = Content farm (SEO-keyword stuffed, no original research)
+!
+! DISCARD = Spam, link farms, irrelevant noise
+!==========================================================
+
+
+!==========================================================
+! SECTION 1: GOVERNMENT & OFFICIAL BODIES (boost=3)
+! These are the gold standard authoritative sources.
+!==========================================================
+
+! --- US Government / CISA ---
+||cisa.gov^$boost=3
+||us-cert.cisa.gov^$boost=3
+||nvd.nist.gov^$boost=3
+||nist.gov/cybersecurity$boost=3
+||nist.gov/topics/cybersecurity$boost=3
+||csrc.nist.gov^$boost=3
+||ic3.gov^$boost=3
+||fbi.gov/investigate/cyber$boost=3
+||cdc.gov/niosh$boost=1
+
+! --- UK / NCSC ---
+||ncsc.gov.uk^$boost=3
+
+! --- EU / ENISA ---
+||enisa.europa.eu^$boost=3
+
+! --- ANSSI (France) ---
+||cert.ssi.gouv.fr^$boost=3
+||www.ssi.gouv.fr^$boost=2
+
+! --- BSI (Germany) ---
+||bsi.bund.de^$boost=3
+
+! --- ASD / ACSC (Australia) ---
+||cyber.gov.au^$boost=3
+
+! --- Canadian Centre for Cybersecurity ---
+||cyber.gc.ca^$boost=3
+
+! --- CERT/CC (Carnegie Mellon) ---
+||cert.org^$boost=3
+||kb.cert.org^$boost=3
+||vuls.cert.org^$boost=3
+
+! --- US-CERT / ICS-CERT archives ---
+||ics-cert.us-cert.gov^$boost=3
+
+! --- FIRST (Forum of Incident Response and Security Teams) ---
+||first.org^$boost=2
+
+! --- MITRE Corporation ---
+||mitre.org^$boost=3
+||attack.mitre.org^$boost=3
+||cve.mitre.org^$boost=3
+||cwe.mitre.org^$boost=3
+||capec.mitre.org^$boost=3
+||d3fend.mitre.org^$boost=3
+
+! --- CVE.org (official CVE Programme) ---
+||cve.org^$boost=3
+
+
+!==========================================================
+! SECTION 2: VULNERABILITY DATABASES (boost=3)
+!==========================================================
+
+! --- Primary CVE/Vuln databases ---
+||nvd.nist.gov^$boost=3
+||cve.org^$boost=3
+||cvedetails.com^$boost=3
+||vuldb.com^$boost=3
+||opencve.io^$boost=3
+||osv.dev^$boost=3
+
+! --- Exploit databases ---
+||exploit-db.com^$boost=3
+||packetstormsecurity.com^$boost=3
+||seclists.org^$boost=3
+
+! --- Vendor-specific security advisory portals ---
+||msrc.microsoft.com^$boost=3
+||support.microsoft.com/en-us/topic/security$boost=3
+||portal.msrc.microsoft.com^$boost=3
+||security.microsoft.com^$boost=2
+||cisco.com/c/en/us/support/docs/csa$boost=3
+||sec.cloudapps.cisco.com^$boost=3
+||tools.cisco.com/security/center$boost=3
+||oracle.com/security-alerts$boost=3
+||support.oracle.com^$boost=2
+||support.apple.com/en-us/111900$boost=3
+||support.apple.com/en-us/HT$boost=3
+||security.googleblog.com^$boost=3
+||chromereleases.googleblog.com^$boost=3
+||androidstudio.googleblog.com^$boost=2
+||source.android.com/docs/security/bulletin$boost=3
+||www.redhat.com/en/blog/channel/security$boost=3
+||access.redhat.com/security/cve$boost=3
+||access.redhat.com/errata$boost=3
+||ubuntu.com/security/notices$boost=3
+||www.debian.org/security$boost=3
+||suse.com/security/cve$boost=3
+||fortinet.com/blog/psirt-advisories$boost=3
+||psirt.fortinet.com^$boost=3
+||www.fortiguard.com/psirt$boost=3
+||kb.pulsesecure.net^$boost=3
+||www.ivanti.com/blog/security-advisories$boost=3
+||support.f5.com/csp/article/K$boost=3
+||my.f5.com/manage/s/article/K$boost=3
+||www.vmware.com/security/advisories$boost=3
+||support.broadcom.com^$boost=2
+||exchange.xforce.ibmcloud.com^$boost=3
+||www.ibm.com/support/pages/bulletin$boost=3
+||jvndb.jvn.jp^$boost=3
+||jvn.jp^$boost=3
+
+
+!==========================================================
+! SECTION 3: DEDICATED SECURITY NEWS (boost=3)
+! These outlets exist solely or primarily for security news.
+!==========================================================
+
+||bleepingcomputer.com^$boost=3
+||thehackernews.com^$boost=3
+||krebsonsecurity.com^$boost=3
+||darkreading.com^$boost=3
+||securityweek.com^$boost=3
+||threatpost.com^$boost=3
+||infosecurity-magazine.com^$boost=3
+||helpnetsecurity.com^$boost=3
+||cyberscoop.com^$boost=3
+||scmagazine.com^$boost=3
+||therecord.media^$boost=3
+||risky.biz^$boost=3
+||securityaffairs.com^$boost=3
+||hackread.com^$boost=2
+||gbhackers.com^$boost=2
+||nakedsecurity.sophos.com^$boost=3
+||news.sophos.com^$boost=3
+
+
+!==========================================================
+! SECTION 4: THREAT INTELLIGENCE & RESEARCH (boost=3)
+!==========================================================
+
+! --- Vendor threat research teams ---
+||unit42.paloaltonetworks.com^$boost=3
+||blog.talosintelligence.com^$boost=3
+||blog.malwarebytes.com^$boost=3
+||www.mandiant.com/resources/insights$boost=3
+||cloud.google.com/blog/topics/threat-intelligence$boost=3
+||securelist.com^$boost=3
+||securelist.ru^$boost=2
+||news.kaspersky.com^$boost=2
+||www.kaspersky.com/blog/security$boost=2
+||research.checkpoint.com^$boost=3
+||blog.checkpoint.com^$boost=2
+||www.microsoft.com/en-us/security/blog$boost=3
+||techcommunity.microsoft.com/t5/security-compliance$boost=3
+||decoded.avast.io^$boost=3
+||www.welivesecurity.com^$boost=3
+||www.sentinelone.com/blog$boost=3
+||www.crowdstrike.com/blog$boost=3
+||www.crowdstrike.com/adversaries$boost=3
+||adversary.crowdstrike.com^$boost=3
+||www.elastic.co/security-labs$boost=3
+||www.rapid7.com/blog$boost=3
+||www.rapid7.com/db$boost=3
+||labs.withsecure.com^$boost=3
+||www.withsecure.com/en/expertise/research-and-innovation$boost=3
+||www.proofpoint.com/us/blog/threat-insight$boost=3
+||www.cybereason.com/blog/threat-intelligence$boost=3
+||www.recorded-future.com/blog$boost=3
+||www.recordedfuture.com/research$boost=3
+||intel471.com/blog$boost=3
+||www.tenable.com/blog$boost=3
+||www.qualys.com/research/security-advisories$boost=3
+||www.volexity.com/blog$boost=3
+||huntress.com/blog$boost=3
+||www.eset.com/int/about/newsroom$boost=2
+
+! --- IOC / Malware sharing ---
+||otx.alienvault.com^$boost=3
+||threatfox.abuse.ch^$boost=3
+||malwarebazaar.abuse.ch^$boost=3
+||urlhaus.abuse.ch^$boost=3
+||bazaar.abuse.ch^$boost=3
+||feodotracker.abuse.ch^$boost=3
+||sslbl.abuse.ch^$boost=3
+||abuse.ch^$boost=3
+||malpedia.caad.fkie.fraunhofer.de^$boost=3
+||github.com/Neo23x0$boost=2
+||github.com/SigmaHQ$boost=2
+||github.com/elastic/detection-rules$boost=2
+||github.com/splunk/security_content$boost=2
+
+! --- OSINT & network research ---
+||www.shodan.io^$boost=3
+||viz.greynoise.io^$boost=3
+||greynoise.io/blog$boost=3
+||censys.io^$boost=3
+||urlscan.io^$boost=3
+||any.run^$boost=3
+||tria.ge^$boost=3
+||www.virustotal.com^$boost=3
+||app.any.run^$boost=3
+||www.hybrid-analysis.com^$boost=3
+||app.recordedfuture.com^$boost=2
+||bgp.he.net^$boost=2
+||ipinfo.io^$boost=2
+||abuseipdb.com^$boost=3
+||www.spamhaus.org^$boost=3
+||www.stopforumspam.com^$boost=2
+||haveibeenpwned.com^$boost=2
+
+
+!==========================================================
+! SECTION 5: SANS INTERNET STORM CENTER (boost=3)
+!==========================================================
+
+||isc.sans.edu^$boost=3
+||www.sans.org/blog$boost=3
+||www.sans.org/reading-room$boost=3
+||www.sans.org/white-papers$boost=2
+||sansforensics.wordpress.com^$boost=2
+
+
+!==========================================================
+! SECTION 6: SECURITY RESEARCH & ACADEMIA (boost=2-3)
+!==========================================================
+
+! --- Google Project Zero ---
+||googleprojectzero.blogspot.com^$boost=3
+||project-zero.issues.chromium.org^$boost=3
+
+! --- Academic / research papers ---
+||arxiv.org/cs.CR$boost=3
+||dl.acm.org/doi/proceedings/10.1145/3548606$boost=2
+||usenix.org/conference/usenixsecurity$boost=3
+||usenix.org/system/files/sec$boost=3
+||ieee.org^$boost=2
+||ieeexplore.ieee.org^$boost=2
+
+! --- Security researchers / personal blogs ---
+||www.schneier.com^$boost=3
+||troyhunt.com^$boost=3
+||grahamcluley.com^$boost=3
+||swisskyrepo.github.io^$boost=2
+||blog.harmj0y.net^$boost=3
+||posts.specterops.io^$boost=3
+||specterops.io/blog$boost=3
+||www.contextis.com/blog$boost=2
+||www.nccgroup.com/blog$boost=3
+||research.nccgroup.com^$boost=3
+||labs.detectify.com^$boost=3
+||portswigger.net/research$boost=3
+||portswigger.net/web-security$boost=3
+||www.trustwave.com/en-us/resources/blogs$boost=2
+||www.bishopfox.com/blog$boost=3
+||www.blackhat.com$boost=3
+||i.blackhat.com^$boost=3
+||www.defcon.org^$boost=3
+||conference.hitb.org^$boost=3
+||conference.hitb.org/materials$boost=3
+
+! --- Full disclosure mailing lists ---
+||seclists.org^$boost=3
+||www.openwall.com/lists/oss-security$boost=3
+||www.securityfocus.com^$boost=2
+
+
+!==========================================================
+! SECTION 7: STANDARDS & FRAMEWORKS (boost=2-3)
+!==========================================================
+
+||owasp.org^$boost=3
+||cheatsheetseries.owasp.org^$boost=3
+||www.owasp.org/index.php$boost=3
+||pci-dss.org^$boost=2
+||www.pcisecuritystandards.org^$boost=2
+||www.iso.org/standard/27001$boost=2
+||csf.tools^$boost=2
+||www.nist.gov/cyberframework$boost=3
+||www.cisecurity.org^$boost=3
+||www.cisecurity.org/cis-benchmarks$boost=3
+||www.cisecurity.org/controls$boost=3
+
+
+!==========================================================
+! SECTION 8: SECURITY TOOLS & PROJECTS (boost=2)
+!==========================================================
+
+! --- Offensive / red team tools (official repos) ---
+||www.metasploit.com^$boost=2
+||github.com/rapid7/metasploit-framework$boost=2
+||github.com/nmap/nmap$boost=2
+||github.com/sullo/nikto$boost=2
+||github.com/sqlmapproject/sqlmap$boost=2
+||github.com/bettercap/bettercap$boost=2
+||github.com/gentilkiwi/mimikatz$boost=2
+||github.com/SecureAuthCorp/impacket$boost=2
+||github.com/dirkjanm/BloodHound$boost=2
+||bloodhound.readthedocs.io^$boost=2
+
+! --- Blue team / defensive ---
+||github.com/elastic/elasticsearch$boost=1
+||www.elastic.co/security$boost=2
+||docs.splunk.com/Documentation/ES$boost=2
+||github.com/MISP/MISP$boost=2
+||www.misp-project.org^$boost=3
+||github.com/Neo23x0/Loki$boost=2
+||github.com/volatilityfoundation/volatility3$boost=2
+||github.com/Ciphey/Ciphey$boost=1
+||yara.readthedocs.io^$boost=2
+||virustotal.github.io^$boost=2
+
+! --- Hardening guides & docs ---
+||stigviewer.com^$boost=3
+||public.cyber.mil^$boost=3
+||www.stigviewer.com^$boost=3
+||benchmarks.cisecurity.org^$boost=3
+||downloads.cisecurity.org^$boost=3
+
+
+!==========================================================
+! SECTION 9: SECURITY COMMUNITIES & Q&A (boost=1-2)
+!==========================================================
+
+! --- Stack Exchange Security ---
+||security.stackexchange.com^$boost=2
+
+! --- Reddit (security subreddits only) ---
+||www.reddit.com/r/netsec$boost=2
+||www.reddit.com/r/cybersecurity$boost=1
+||www.reddit.com/r/AskNetsec$boost=2
+||www.reddit.com/r/malware$boost=2
+||www.reddit.com/r/ReverseEngineering$boost=2
+||www.reddit.com/r/HowToHack$boost=1
+||www.reddit.com/r/hacking$boost=1
+
+! --- Hacker News (security tagged) ---
+||news.ycombinator.com^$boost=1
+
+! --- Vendor communities ---
+||community.fortinet.com^$boost=1
+||community.cisco.com^$boost=1
+||community.splunk.com^$boost=1
+||community.elastic.co^$boost=1
+||answers.microsoft.com^$boost=1
+
+! --- GitHub security topics ---
+||github.com/topics/cybersecurity$boost=2
+||github.com/topics/security$boost=1
+||github.com/topics/penetration-testing$boost=2
+||github.com/topics/malware-analysis$boost=2
+||github.com/topics/threat-intelligence$boost=2
+||github.com/topics/vulnerability$boost=2
+||github.com/advisories^$boost=3
+||github.com/security^$boost=2
+
+
+!==========================================================
+! SECTION 10: TRAINING & KNOWLEDGE BASES (boost=2)
+!==========================================================
+
+||tryhackme.com^$boost=2
+||app.hackthebox.com^$boost=2
+||www.hackthebox.com^$boost=2
+||pentesterlab.com^$boost=2
+||pwn.college^$boost=2
+||ctf101.org^$boost=2
+||ctftime.org^$boost=2
+||www.offensive-security.com^$boost=2
+||www.offsec.com^$boost=2
+||docs.rapid7.com^$boost=2
+||docs.microsoft.com/en-us/security$boost=2
+||learn.microsoft.com/en-us/security$boost=2
+||www.cyberdefenders.org^$boost=2
+||blueteamlabs.online^$boost=2
+
+
+!==========================================================
+! SECTION 11: DOWNRANK — GENERAL TECH PRESS
+! These cover security only superficially or
+! as click-optimized headlines. Not primary sources.
+!==========================================================
+
+||techcrunch.com^$downrank=2
+||www.theverge.com^$downrank=2
+||www.wired.com^$downrank=1
+||arstechnica.com^$downrank=1
+||www.engadget.com^$downrank=2
+||www.zdnet.com^$downrank=1
+||www.cnet.com^$downrank=2
+||www.pcmag.com^$downrank=2
+||www.tomsguide.com^$downrank=2
+||www.tomshardware.com^$downrank=2
+||9to5google.com^$downrank=2
+||9to5mac.com^$downrank=2
+||www.macrumors.com^$downrank=2
+||www.businessinsider.com^$downrank=2
+||www.forbes.com^$downrank=2
+||fortune.com^$downrank=2
+||www.washingtonpost.com^$downrank=1
+||www.nytimes.com^$downrank=1
+||www.reuters.com^$downrank=1
+||www.bbc.com/news/technology$downrank=1
+||apnews.com^$downrank=2
+||www.protocol.com^$downrank=2
+||gizmodo.com^$downrank=2
+||www.pcworld.com^$downrank=2
+||www.computerworld.com^$downrank=1
+||www.infoworld.com^$downrank=1
+||www.networkworld.com^$downrank=1
+
+
+!==========================================================
+! SECTION 12: DOWNRANK — LOW-QUALITY / SEO SPAM
+! Keyword-stuffed "cybersecurity" content farms
+! with no original research or primary sourcing.
+!==========================================================
+
+||www.technewsworld.com^$downrank=3
+||www.esecurityplanet.com^$downrank=3
+||www.cybersecurity-insiders.com^$downrank=3
+||www.techrepublic.com^$downrank=2
+||www.makeuseof.com^$downrank=3
+||www.howtogeek.com^$downrank=2
+||www.lifewire.com^$downrank=3
+||www.digitaltrends.com^$downrank=3
+||cybernews.com^$downrank=2
+||www.androidauthority.com^$downrank=2
+||www.androidcentral.com^$downrank=2
+||www.iphoneincanada.ca^$downrank=3
+||www.geeky-gadgets.com^$downrank=3
+||www.techspot.com^$downrank=2
+||www.slashgear.com^$downrank=3
+||pocketnow.com^$downrank=3
+||www.techradar.com^$downrank=2
+||www.techrepublic.com^$downrank=2
+
+! --- Marketing-heavy vendor content (not research teams) ---
+! Boost vendor research blogs above; downrank main marketing sites
+||www.crowdstrike.com^$downrank=1
+||www.paloaltonetworks.com^$downrank=1
+||www.trendmicro.com^$downrank=1
+||www.symantec.com^$downrank=1
+||www.broadcom.com^$downrank=2
+||www.mcafee.com^$downrank=2
+||www.carbonblack.com^$downrank=1
+||www.fireeye.com^$downrank=1
+
+! --- Paywalled news (no security value without subscription) ---
+||www.wsj.com^$downrank=3
+||www.ft.com^$downrank=3
+||www.economist.com^$downrank=3
+||www.bloomberg.com^$downrank=2
+
+! --- Generic link aggregators ---
+||www.alltop.com^$downrank=3
+||feedspot.com^$downrank=3
+
+
+!==========================================================
+! SECTION 13: DISCARD — NOISE & SPAM
+! Pages with zero security research value.
+!==========================================================
+
+! --- Listicle / "Top 10 VPN" affiliate farms ---
+||vpnmentor.com^$discard
+||www.techradar.com/vpn$discard
+||restoreprivacy.com^$discard
+||www.vpnpro.com^$discard
+||www.safetydetectives.com^$discard
+||www.top10vpn.com^$discard
+||vpnranks.com^$discard
+||www.privateinternetaccess.com/blog$discard
+||nordvpnteams.com^$discard
+
+! --- Job boards (not useful for security research) ---
+||www.indeed.com^$discard
+||www.glassdoor.com^$discard
+||www.linkedin.com^$discard
+||jobs.lever.co^$discard
+||boards.greenhouse.io^$discard
+
+! --- Course spam / certification mills (not primary research) ---
+||www.udemy.com^$discard
+||www.coursera.org^$discard
+||www.pluralsight.com^$discard
+||skillshare.com^$discard
+
+! --- Pinterest, social noise ---
+||www.pinterest.com^$discard
+||www.instagram.com^$discard
+||www.tiktok.com^$discard
+||twitter.com^$discard
+||x.com^$discard
+||www.facebook.com^$discard
+
+! --- Wikipedia (too general for security research queries) ---
+||en.wikipedia.org^$downrank=2
+
+! --- Spam / scraper sites ---
+||www.cyberkendra.com^$discard
+||latesthackingnews.com^$discard
+||thecybersecurityplace.com^$discard
+||cyware.com^$discard
