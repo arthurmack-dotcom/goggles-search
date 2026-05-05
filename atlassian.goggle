@@ -89,10 +89,10 @@ $boost=5,site=comalatech.com
 ! -- DevOps & CI/CD --
 $boost=6,site=jenkins.io
 $boost=5,site=circleci.com
-$boost=7,site=github.com/atlassian
+$boost=7,site=github.com
 
 ! -- Service management --
-$boost=7,site=atlassian.com/software/jira/service-management
+$boost=7,site=atlassian.com
 $boost=6,site=mindville.com
 $boost=6,site=riada.io
 
@@ -121,13 +121,7 @@ $url=wiki/rest/$boost=7
 ! SECTION 5: Atlassian on Stack Overflow & Forums
 ! ============================================================
 
-$boost=7,site=stackoverflow.com/questions/tagged/jira
-$boost=7,site=stackoverflow.com/questions/tagged/confluence
-$boost=7,site=stackoverflow.com/questions/tagged/bitbucket
-$boost=6,site=stackoverflow.com/questions/tagged/atlassian
-$boost=6,site=stackoverflow.com/questions/tagged/jira-rest-api
-$boost=6,site=stackoverflow.com/questions/tagged/scriptrunner
-$boost=5,site=stackoverflow.com/questions/tagged/groovy
+$boost=7,site=stackoverflow.com
 $boost=5,site=serverfault.com
 
 ! ============================================================
@@ -135,12 +129,7 @@ $boost=5,site=serverfault.com
 ! Open source tools, integrations, SDKs
 ! ============================================================
 
-$boost=7,site=github.com/atlassian
-$boost=6,site=github.com/atlassian-api
-$boost=6,site=github.com/pycontribs/jira
-$boost=5,site=github.com/atlassian-labs
-$boost=5,site=github.com/topics/jira
-$boost=5,site=github.com/topics/confluence
+$boost=7,site=github.com
 
 ! ============================================================
 ! SECTION 7: Atlassian Certification & Training
