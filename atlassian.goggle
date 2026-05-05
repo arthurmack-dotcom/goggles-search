@@ -1,0 +1,180 @@
+! name: Atlassian
+! description: Search only Atlassian docs, community, marketplace, developer resources, and trusted third-party content for Jira, Confluence, Bitbucket, and the Atlassian platform
+! public: true
+! author: Art
+! avatar: #0052CC
+
+! ============================================================
+! Anything NOT matching an instruction below is removed
+! ============================================================
+$discard
+
+! ============================================================
+! SECTION 1: Official Atlassian Domains
+! Docs, support, community, status, training
+! ============================================================
+
+$boost=10,site=atlassian.com
+$boost=10,site=support.atlassian.com
+$boost=10,site=confluence.atlassian.com
+$boost=10,site=jira.atlassian.com
+$boost=10,site=community.atlassian.com
+$boost=10,site=marketplace.atlassian.com
+$boost=9,site=developer.atlassian.com
+$boost=9,site=bitbucket.org
+$boost=9,site=trello.com
+$boost=8,site=statuspage.io
+$boost=8,site=opsgenie.com
+$boost=8,site=atlassian.design
+$boost=8,site=status.atlassian.com
+$boost=7,site=university.atlassian.com
+$boost=7,site=teamplaybook.atlassian.com
+$boost=7,site=atlassianpartners.com
+$boost=7,site=blog.developer.atlassian.com
+
+! -- Atlassian API & developer references --
+$boost=9,site=developer.atlassian.com/cloud
+$boost=9,site=developer.atlassian.com/server
+$boost=8,site=developer.atlassian.com/platform
+
+! ============================================================
+! SECTION 2: Atlassian Community & Ecosystem Blogs
+! Trusted voices, ACE leaders, solution partners
+! ============================================================
+
+$boost=8,site=atlassianblog.wpengine.com
+$boost=7,site=community.developer.atlassian.com
+$boost=7,site=ecosystem.atlassian.net
+
+! -- Well-known Atlassian-focused blogs --
+$boost=7,site=adaptavist.com
+$boost=7,site=appfire.com
+$boost=6,site=valiantys.com
+$boost=6,site=cprime.com
+$boost=6,site=isos.tech
+$boost=6,site=eficode.com
+$boost=6,site=servicerocket.com
+$boost=5,site=clearvision-cm.com
+$boost=5,site=communardo.com
+$boost=5,site=k15t.com
+$boost=5,site=resolution.de
+$boost=5,site=stiltsoft.com
+
+! ============================================================
+! SECTION 3: Marketplace App Vendors
+! Top add-on publishers with useful docs and knowledge bases
+! ============================================================
+
+! -- Project & issue management --
+$boost=7,site=tempo.io
+$boost=7,site=bigpicture.one
+$boost=6,site=eazybi.com
+$boost=6,site=getstructure.io
+$boost=6,site=smartbear.com/zephyr
+$boost=6,site=xray.cloud
+$boost=6,site=xpand-it.com
+
+! -- Automation & scripting --
+$boost=8,site=scriptrunner.adaptavist.com
+$boost=7,site=docs.adaptavist.com
+$boost=7,site=innovalog.com
+$boost=6,site=decadis.net
+
+! -- Diagramming & documentation --
+$boost=6,site=draw.io
+$boost=6,site=app.diagrams.net
+$boost=6,site=gliffy.com
+$boost=6,site=lucidchart.com
+$boost=5,site=scroll-pdf.k15t.com
+$boost=5,site=comalatech.com
+
+! -- DevOps & CI/CD --
+$boost=6,site=jenkins.io
+$boost=5,site=circleci.com
+$boost=5,site=github.com/atlassian
+
+! -- Service management --
+$boost=7,site=atlassian.com/software/jira/service-management
+$boost=6,site=mindville.com
+$boost=6,site=riada.io
+
+! ============================================================
+! SECTION 4: Jira & Confluence Specific Resources
+! Deep technical content, how-tos, admin guides
+! ============================================================
+
+! -- JQL & query references --
+/jql/$boost=6
+/advanced-searching/$boost=6
+
+! -- Confluence macros & templates --
+/confluence/cloud/$boost=6
+/confluence/server/$boost=6
+
+! -- Jira workflows & schemes --
+/jira/cloud/$boost=6
+/jira/server/$boost=6
+
+! -- REST API docs --
+/rest/api/$boost=7
+/wiki/rest/$boost=7
+
+! ============================================================
+! SECTION 5: Atlassian on Stack Overflow & Forums
+! ============================================================
+
+$boost=7,site=stackoverflow.com/questions/tagged/jira
+$boost=7,site=stackoverflow.com/questions/tagged/confluence
+$boost=7,site=stackoverflow.com/questions/tagged/bitbucket
+$boost=6,site=stackoverflow.com/questions/tagged/atlassian
+$boost=6,site=stackoverflow.com/questions/tagged/jira-rest-api
+$boost=6,site=stackoverflow.com/questions/tagged/scriptrunner
+$boost=5,site=stackoverflow.com/questions/tagged/groovy
+$boost=5,site=serverfault.com
+
+! ============================================================
+! SECTION 6: Atlassian on GitHub
+! Open source tools, integrations, SDKs
+! ============================================================
+
+$boost=7,site=github.com/atlassian
+$boost=6,site=github.com/atlassian-api
+$boost=6,site=github.com/pycontribs/jira
+$boost=5,site=github.com/atlassian-labs
+$boost=5,site=github.com/topics/jira
+$boost=5,site=github.com/topics/confluence
+
+! ============================================================
+! SECTION 7: Atlassian Certification & Training
+! ============================================================
+
+$boost=7,site=university.atlassian.com
+$boost=6,site=training.atlassian.com
+$boost=5,site=coursera.org
+$boost=5,site=udemy.com
+$boost=4,site=linkedin.com/learning
+
+! ============================================================
+! SECTION 8: General Tech Resources That Cover Atlassian
+! ============================================================
+
+$boost=4,site=en.wikipedia.org
+$boost=4,site=techcrunch.com
+$boost=3,site=infoq.com
+$boost=3,site=dzone.com
+$boost=3,site=medium.com
+$boost=3,site=dev.to
+$boost=3,site=reddit.com/r/jira
+$boost=3,site=reddit.com/r/confluence
+$boost=3,site=reddit.com/r/atlassian
+$boost=3,site=reddit.com/r/devops
+
+! ============================================================
+! SECTION 9: Microsoft Integration Resources
+! Teams, Azure DevOps, Power Automate connectors
+! ============================================================
+
+$boost=5,site=learn.microsoft.com
+$boost=4,site=powerautomate.microsoft.com
+$boost=4,site=yasoon.com
+$boost=3,site=office.com
