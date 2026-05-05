@@ -33,9 +33,7 @@ $boost=7,site=atlassianpartners.com
 $boost=7,site=blog.developer.atlassian.com
 
 ! -- Atlassian API & developer references --
-$boost=9,site=developer.atlassian.com/cloud
-$boost=9,site=developer.atlassian.com/server
-$boost=8,site=developer.atlassian.com/platform
+$boost=9,site=developer.atlassian.com
 
 ! ============================================================
 ! SECTION 2: Atlassian Community & Ecosystem Blogs
@@ -152,7 +150,6 @@ $boost=7,site=university.atlassian.com
 $boost=6,site=training.atlassian.com
 $boost=5,site=coursera.org
 $boost=5,site=udemy.com
-$boost=4,site=linkedin.com/learning
 
 ! ============================================================
 ! SECTION 8: General Tech Resources That Cover Atlassian
@@ -164,10 +161,7 @@ $boost=3,site=infoq.com
 $boost=3,site=dzone.com
 $boost=3,site=medium.com
 $boost=3,site=dev.to
-$boost=3,site=reddit.com/r/jira
-$boost=3,site=reddit.com/r/confluence
-$boost=3,site=reddit.com/r/atlassian
-$boost=3,site=reddit.com/r/devops
+
 
 ! ============================================================
 ! SECTION 9: Microsoft Integration Resources
