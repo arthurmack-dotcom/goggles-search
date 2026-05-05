@@ -145,7 +145,7 @@ $boost=5,site=patentlyo.com
 $boost=5,site=askpatents.com
 $boost=5,site=patents.stackexchange.com
 $boost=4,site=en.wikipedia.org
-$boost=4,site=wipo.int/academy
+$boost=4,site=wipo.int
 $boost=3,site=nolo.com
 $boost=3,site=bitlaw.com
 
